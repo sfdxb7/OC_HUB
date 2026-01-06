@@ -74,6 +74,7 @@ class Settings(BaseSettings):
     
     # === Firecrawl & Tavily ===
     firecrawl_api_key: str = ""
+    firecrawl_url: str = "https://myfirecrawl.alfalasi.io"
     tavily_api_key: str = ""
     
     # === News Sources ===

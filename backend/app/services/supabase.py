@@ -390,20 +390,80 @@ class SupabaseService:
     
     async def get_news_items(
         self,
+        analyzed_only: bool = True,
+        source: Optional[str] = None,
         limit: int = 20,
         offset: int = 0
-    ) -> list[dict]:
-        """Get news items."""
+    ) -> tuple[list[dict], int]:
+        """Get news items with optional filtering."""
         try:
-            result = self.client.table("news_items")\
-                .select("*")\
-                .order("published_at", desc=True)\
-                .range(offset, offset + limit - 1)\
-                .execute()
-            return result.data
+            query = self.client.table("news_items")\
+                .select("*", count="exact")
+            
+            if analyzed_only:
+                query = query.not_.is_("so_what_analysis", "null")
+            if source:
+                query = query.eq("source", source)
+            
+            query = query.order("created_at", desc=True)\
+                .range(offset, offset + limit - 1)
+            
+            result = query.execute()
+            return result.data, result.count or 0
         except APIError as e:
             logger.error(f"Database error getting news: {e}")
             raise DatabaseError(f"Failed to get news: {e}")
+    
+    async def get_news_item(self, news_id: str) -> Optional[dict]:
+        """Get a single news item by ID."""
+        try:
+            result = self.client.table("news_items")\
+                .select("*")\
+                .eq("id", news_id)\
+                .single()\
+                .execute()
+            return result.data
+        except APIError as e:
+            if "PGRST116" in str(e):
+                return None
+            logger.error(f"Database error getting news item: {e}")
+            raise DatabaseError(f"Failed to get news item: {e}")
+    
+    async def get_news_by_url(self, url: str) -> Optional[dict]:
+        """Get news item by URL (for caching check)."""
+        try:
+            result = self.client.table("news_items")\
+                .select("*")\
+                .eq("url", url)\
+                .limit(1)\
+                .execute()
+            return result.data[0] if result.data else None
+        except APIError as e:
+            logger.error(f"Database error getting news by URL: {e}")
+            return None
+    
+    async def save_news_item(self, news_data: dict) -> dict:
+        """Save or update a news item."""
+        try:
+            result = self.client.table("news_items")\
+                .upsert(news_data, on_conflict="url")\
+                .execute()
+            return result.data[0]
+        except APIError as e:
+            logger.error(f"Database error saving news: {e}")
+            raise DatabaseError(f"Failed to save news: {e}")
+    
+    async def delete_news_item(self, news_id: str) -> bool:
+        """Delete a news item."""
+        try:
+            self.client.table("news_items")\
+                .delete()\
+                .eq("id", news_id)\
+                .execute()
+            return True
+        except APIError as e:
+            logger.error(f"Database error deleting news: {e}")
+            raise DatabaseError(f"Failed to delete news: {e}")
     
     async def add_news_item(
         self,
@@ -414,7 +474,7 @@ class SupabaseService:
         so_what_analysis: Optional[dict] = None,
         published_at: Optional[datetime] = None
     ) -> dict:
-        """Add a news item."""
+        """Add a news item (legacy method)."""
         try:
             data = {
                 "url": url,

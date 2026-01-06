@@ -162,6 +162,21 @@ async def test_supabase():
         return {"status": "error", "error": str(e)}
 
 
+# Dashboard data endpoint (no auth - for development only)
+@app.get("/test/dashboard")
+async def test_dashboard():
+    """Get comprehensive dashboard data with stats, aha moments, and insights."""
+    from app.services.supabase import get_supabase_service
+    
+    try:
+        supabase = get_supabase_service()
+        dashboard_data = await supabase.get_dashboard_data()
+        return dashboard_data
+    except Exception as e:
+        import traceback
+        return {"error": str(e), "traceback": traceback.format_exc()}
+
+
 # Test LLM connection (no auth - for development only)
 @app.get("/test/llm")
 async def test_llm(prompt: str = "Say hello in one sentence."):

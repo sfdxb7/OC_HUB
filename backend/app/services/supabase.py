@@ -529,9 +529,10 @@ class SupabaseService:
     async def get_stats(self) -> dict:
         """Get platform statistics."""
         try:
-            reports = self.client.table("reports").select("id", count="exact").execute()
-            conversations = self.client.table("conversations").select("id", count="exact").execute()
-            databank = self.client.table("data_bank").select("id", count="exact").execute()
+            # Use count="exact" with "*" selector for proper count
+            reports = self.client.table("reports").select("*", count="exact").limit(1).execute()
+            conversations = self.client.table("conversations").select("*", count="exact").limit(1).execute()
+            databank = self.client.table("data_bank").select("*", count="exact").limit(1).execute()
             
             return {
                 "total_reports": reports.count or 0,
@@ -541,6 +542,77 @@ class SupabaseService:
         except APIError as e:
             logger.error(f"Database error getting stats: {e}")
             return {"total_reports": 0, "total_conversations": 0, "total_databank_items": 0}
+    
+    async def get_dashboard_data(self) -> dict:
+        """Get comprehensive dashboard data including stats and recent insights."""
+        try:
+            # Get counts
+            stats = await self.get_stats()
+            
+            # Get recent aha moments
+            aha_moments = self.client.table("data_bank")\
+                .select("id, content, context, created_at, reports(title, source)")\
+                .eq("type", "aha_moment")\
+                .order("created_at", desc=True)\
+                .limit(5)\
+                .execute()
+            
+            # Get recent statistics
+            recent_stats = self.client.table("data_bank")\
+                .select("id, content, context, created_at, reports(title, source)")\
+                .eq("type", "statistic")\
+                .order("created_at", desc=True)\
+                .limit(5)\
+                .execute()
+            
+            # Get source breakdown
+            sources_query = self.client.table("reports")\
+                .select("source")\
+                .execute()
+            
+            source_counts: dict[str, int] = {}
+            for r in sources_query.data:
+                src = r.get("source", "Unknown") if isinstance(r, dict) else "Unknown"
+                source_counts[src] = source_counts.get(src, 0) + 1
+            
+            # Top 5 sources
+            top_sources = sorted(source_counts.items(), key=lambda x: x[1], reverse=True)[:5]
+            
+            # Helper to safely get nested values
+            def safe_get(obj, key, default="Unknown"):
+                if isinstance(obj, dict):
+                    return obj.get(key, default)
+                return default
+            
+            return {
+                "stats": stats,
+                "aha_moments": [
+                    {
+                        "id": safe_get(m, "id"),
+                        "content": safe_get(m, "content"),
+                        "source": safe_get(safe_get(m, "reports", {}), "source", "Unknown"),
+                        "report_title": str(safe_get(safe_get(m, "reports", {}), "title", "Unknown"))[:50]
+                    }
+                    for m in aha_moments.data if isinstance(m, dict)
+                ],
+                "recent_statistics": [
+                    {
+                        "id": safe_get(s, "id"),
+                        "content": safe_get(s, "content"),
+                        "source": safe_get(safe_get(s, "reports", {}), "source", "Unknown")
+                    }
+                    for s in recent_stats.data if isinstance(s, dict)
+                ],
+                "top_sources": [{"name": s[0], "count": s[1]} for s in top_sources]
+            }
+        except APIError as e:
+            logger.error(f"Database error getting dashboard data: {e}")
+            return {
+                "stats": {"total_reports": 0, "total_conversations": 0, "total_databank_items": 0},
+                "aha_moments": [],
+                "recent_statistics": [],
+                "top_sources": []
+            }
 
 
 # Singleton instance

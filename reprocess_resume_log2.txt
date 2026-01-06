@@ -1,0 +1,1582 @@
+================================================================================
+DCAI Intelligence Platform - Full Reprocessing
+================================================================================
+Model: google/gemini-3-flash-preview
+Reports path: C:\myprojects\REVIEW\NewHUB\processed_reports_mineru
+RAGFlow: http://localhost:9380/api/v1
+Dry run: False
+Sample: ALL
+
+
+[3/3] Processing reports with Gemini 3 Flash...
+  Found 405 reports to process
+
+  [1/405] 0509 AIRetreat2025 StrategicImperatives AILeadership Present...
+2026-01-05 04:20:18 [info     ] Processing: BRIEFING FOR THE MINISTER OF AI
+2026-01-05 04:20:19 [info     ] Using existing dataset: DCAI Intelligence Hub (eceb7b32e83111f080689a6078826a72)
+2026-01-05 04:20:19 [info     ] Uploading text document: 0509 AIRetreat2025 StrategicImperatives AILeadership Presentation V1.pdf-d4b5fedd-4104-41bc-a783-bbb9c612fa94.md
+2026-01-05 04:20:19 [info     ] Successfully uploaded: 0509 AIRetreat2025 StrategicImperatives AILeadership Presentation V1.pdf-d4b5fedd-4104-41bc-a783-bbb9c612fa94.md (id: 50c00550e9cc11f0b1c56ed6aed274e1)
+2026-01-05 04:20:19 [info     ] Parsing 1 documents
+2026-01-05 04:20:19 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:20:19 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:20:19 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:20:33 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2243 tokens_prompt=3951
+2026-01-05 04:20:33 [info     ] Extraction complete for BRIEFING FOR THE MINISTER OF AI findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=0
+2026-01-05 04:20:34 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:20:34 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:20:34 [info     ] Completed processing: BRIEFING FOR THE MINISTER OF AI (reprocessed)
+    -> reprocessed: BRIEFING FOR THE MINISTER OF AI
+
+  [2/405] 15_AI_Use_Cases_in_Government_Dubai_2025...
+2026-01-05 04:20:34 [info     ] Processing: clicb0yI sIJI
+2026-01-05 04:20:34 [info     ] Uploading text document: 15_AI_Use_Cases_in_Government_Dubai_2025.md
+2026-01-05 04:20:34 [info     ] Successfully uploaded: 15_AI_Use_Cases_in_Government_Dubai_2025.md (id: 5a5d8378e9cc11f09f526ed6aed274e1)
+2026-01-05 04:20:34 [info     ] Parsing 1 documents
+2026-01-05 04:20:34 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:20:34 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:20:34 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:20:53 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3179 tokens_prompt=26769
+2026-01-05 04:20:53 [info     ] Extraction complete for clicb0yI sIJI findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=6
+2026-01-05 04:20:54 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:20:54 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:20:54 [info     ] Completed processing: clicb0yI sIJI (reprocessed)
+    -> reprocessed: clicb0yI sIJI
+
+  [3/405] 1765965114980990ed50d-5cd9-413c-b493-c386f7fa073c...
+    -> FAILED: No markdown file found in C:\myprojects\REVIEW\NewHUB\processed_reports_mineru\1
+
+  [4/405] 2023-11-12_Dubai_Establishes_AI_Research_Center_with_Global_...
+2026-01-05 04:20:54 [info     ] Processing: Dubai Establishes AI Research Center with Global Partners
+2026-01-05 04:20:55 [info     ] Uploading text document: 2023-11-12_Dubai_Establishes_AI_Research_Center_with_Global_P.md
+2026-01-05 04:20:55 [info     ] Successfully uploaded: 2023-11-12_Dubai_Establishes_AI_Research_Center_with_Global_P.md (id: 663d34b6e9cc11f0a1526ed6aed274e1)
+2026-01-05 04:20:55 [info     ] Parsing 1 documents
+2026-01-05 04:20:55 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:20:55 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:20:55 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:21:07 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1809 tokens_prompt=2418
+2026-01-05 04:21:07 [info     ] Extraction complete for Dubai Establishes AI Research Center with Global Partners findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=1
+2026-01-05 04:21:08 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:21:08 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:21:08 [info     ] Completed processing: Dubai Establishes AI Research Center with Global Partners (reprocessed)
+    -> reprocessed: Dubai Establishes AI Research Center with Global P
+
+  [5/405] 2023-12-08_Dubai_AI_Center_Launches_Talent_Development_Progr...
+2026-01-05 04:21:08 [info     ] Processing: Dubai AI Center Launches Talent Development Program
+2026-01-05 04:21:08 [info     ] Uploading text document: 2023-12-08_Dubai_AI_Center_Launches_Talent_Development_Progra.md
+2026-01-05 04:21:08 [info     ] Successfully uploaded: 2023-12-08_Dubai_AI_Center_Launches_Talent_Development_Progra.md (id: 6eb4bc65e9cc11f0ad4f6ed6aed274e1)
+2026-01-05 04:21:08 [info     ] Parsing 1 documents
+2026-01-05 04:21:08 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:21:08 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:21:08 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:21:20 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1759 tokens_prompt=2406
+2026-01-05 04:21:20 [info     ] Extraction complete for Dubai AI Center Launches Talent Development Program findings=4 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:21:21 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:21:21 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:21:21 [info     ] Completed processing: Dubai AI Center Launches Talent Development Program (reprocessed)
+    -> reprocessed: Dubai AI Center Launches Talent Development Progra
+
+  [6/405] 2024-01-15_Dubai_Future_Foundation_Announces_AI_Innovation_A...
+2026-01-05 04:21:21 [info     ] Processing: Dubai Future Foundation Announces AI Innovation Awards
+2026-01-05 04:21:21 [info     ] Uploading text document: 2024-01-15_Dubai_Future_Foundation_Announces_AI_Innovation_Aw.md
+2026-01-05 04:21:21 [info     ] Successfully uploaded: 2024-01-15_Dubai_Future_Foundation_Announces_AI_Innovation_Aw.md (id: 762f4b4ae9cc11f09e1e6ed6aed274e1)
+2026-01-05 04:21:21 [info     ] Parsing 1 documents
+2026-01-05 04:21:21 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:21:21 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:21:21 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:21:33 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1612 tokens_prompt=2404
+2026-01-05 04:21:33 [info     ] Extraction complete for Dubai Future Foundation Announces AI Innovation Awards findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:21:34 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:21:34 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:21:34 [info     ] Completed processing: Dubai Future Foundation Announces AI Innovation Awards (reprocessed)
+    -> reprocessed: Dubai Future Foundation Announces AI Innovation Aw
+
+  [7/405] 2024-01-30_Dubai_AI_Forum_Addresses_Future_of_Work_in_AI_Era...
+2026-01-05 04:21:34 [info     ] Processing: Dubai AI Forum Addresses Future of Work in AI Era
+2026-01-05 04:21:34 [info     ] Uploading text document: 2024-01-30_Dubai_AI_Forum_Addresses_Future_of_Work_in_AI_Era.md
+2026-01-05 04:21:34 [info     ] Successfully uploaded: 2024-01-30_Dubai_AI_Forum_Addresses_Future_of_Work_in_AI_Era.md (id: 7e2cd83fe9cc11f084a36ed6aed274e1)
+2026-01-05 04:21:34 [info     ] Parsing 1 documents
+2026-01-05 04:21:34 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:21:34 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:21:34 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:21:44 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1459 tokens_prompt=2407
+2026-01-05 04:21:44 [info     ] Extraction complete for Dubai AI Forum Addresses Future of Work in AI Era findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:21:45 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:21:45 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:21:45 [info     ] Completed processing: Dubai AI Forum Addresses Future of Work in AI Era (reprocessed)
+    -> reprocessed: Dubai AI Forum Addresses Future of Work in AI Era
+
+  [8/405] 2024-02-20_Dubai_AI_Accelerator_Program_Opens_Applications...
+2026-01-05 04:21:45 [info     ] Processing: Dubai AI Accelerator Program Opens Applications
+2026-01-05 04:21:45 [info     ] Uploading text document: 2024-02-20_Dubai_AI_Accelerator_Program_Opens_Applications.md
+2026-01-05 04:21:45 [info     ] Successfully uploaded: 2024-02-20_Dubai_AI_Accelerator_Program_Opens_Applications.md (id: 840bf97fe9cc11f0b4876ed6aed274e1)
+2026-01-05 04:21:45 [info     ] Parsing 1 documents
+2026-01-05 04:21:45 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:21:45 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:21:45 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:21:56 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1491 tokens_prompt=2401
+2026-01-05 04:21:56 [info     ] Extraction complete for Dubai AI Accelerator Program Opens Applications findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:21:57 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:21:57 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:21:57 [info     ] Completed processing: Dubai AI Accelerator Program Opens Applications (reprocessed)
+    -> reprocessed: Dubai AI Accelerator Program Opens Applications
+
+  [9/405] 2024-03-05_Dubai_Future_Foundation_Launches_AI_Policy_Resear...
+2026-01-05 04:21:57 [info     ] Processing: Dubai Future Foundation Launches AI Policy Research Center
+2026-01-05 04:21:57 [info     ] Uploading text document: 2024-03-05_Dubai_Future_Foundation_Launches_AI_Policy_Researc.md
+2026-01-05 04:21:57 [info     ] Successfully uploaded: 2024-03-05_Dubai_Future_Foundation_Launches_AI_Policy_Researc.md (id: 8b9bf692e9cc11f0a7886ed6aed274e1)
+2026-01-05 04:21:57 [info     ] Parsing 1 documents
+2026-01-05 04:21:57 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:21:57 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:21:57 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:22:07 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1504 tokens_prompt=2399
+2026-01-05 04:22:07 [info     ] Extraction complete for Dubai Future Foundation Launches AI Policy Research Center findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:22:08 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:22:08 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:22:08 [info     ] Completed processing: Dubai Future Foundation Launches AI Policy Research Center (reprocessed)
+    -> reprocessed: Dubai Future Foundation Launches AI Policy Researc
+
+  [10/405] 2024-03-18_Dubai_Hosts_Global_AI_Safety_Summit...
+2026-01-05 04:22:08 [info     ] Processing: Dubai Hosts Global AI Safety Summit
+2026-01-05 04:22:08 [info     ] Uploading text document: 2024-03-18_Dubai_Hosts_Global_AI_Safety_Summit.md
+2026-01-05 04:22:08 [info     ] Successfully uploaded: 2024-03-18_Dubai_Hosts_Global_AI_Safety_Summit.md (id: 92b82aa7e9cc11f0b1d16ed6aed274e1)
+2026-01-05 04:22:08 [info     ] Parsing 1 documents
+2026-01-05 04:22:08 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:22:08 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:22:08 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:22:18 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1487 tokens_prompt=2394
+2026-01-05 04:22:18 [info     ] Extraction complete for Dubai Hosts Global AI Safety Summit findings=3 model=google/gemini-3-flash-preview quotes=0 statistics=0
+2026-01-05 04:22:19 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:22:19 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:22:19 [info     ] Completed processing: Dubai Hosts Global AI Safety Summit (reprocessed)
+    -> reprocessed: Dubai Hosts Global AI Safety Summit
+
+  === Progress: 10/405 (2.5%) | Rate: 4.9/min | ETA: 80 min ===
+
+
+  [11/405] 2024-04-12_Dubai_AI_Center_Partners_with_Healthcare_Sector_f...
+2026-01-05 04:22:19 [info     ] Processing: Dubai AI Center Partners with Healthcare Sector for AI Integration
+2026-01-05 04:22:19 [info     ] Uploading text document: 2024-04-12_Dubai_AI_Center_Partners_with_Healthcare_Sector_fo.md
+2026-01-05 04:22:19 [info     ] Successfully uploaded: 2024-04-12_Dubai_AI_Center_Partners_with_Healthcare_Sector_fo.md (id: 98a285cfe9cc11f084186ed6aed274e1)
+2026-01-05 04:22:19 [info     ] Parsing 1 documents
+2026-01-05 04:22:19 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:22:19 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:22:19 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:22:31 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1603 tokens_prompt=2415
+2026-01-05 04:22:31 [info     ] Extraction complete for Dubai AI Center Partners with Healthcare Sector for AI Integration findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:22:32 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:22:32 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:22:32 [info     ] Completed processing: Dubai AI Center Partners with Healthcare Sector for AI Integration (reprocessed)
+    -> reprocessed: Dubai AI Center Partners with Healthcare Sector fo
+
+  [12/405] 2024-05-14_Dubai_Launches_AI_Ethics_Council...
+2026-01-05 04:22:32 [info     ] Processing: Dubai Launches AI Ethics Council
+2026-01-05 04:22:32 [info     ] Uploading text document: 2024-05-14_Dubai_Launches_AI_Ethics_Council.md
+2026-01-05 04:22:32 [info     ] Successfully uploaded: 2024-05-14_Dubai_Launches_AI_Ethics_Council.md (id: a0bf978fe9cc11f0b23f6ed6aed274e1)
+2026-01-05 04:22:32 [info     ] Parsing 1 documents
+2026-01-05 04:22:32 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:22:32 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:22:32 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:22:40 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1359 tokens_prompt=2392
+2026-01-05 04:22:40 [info     ] Extraction complete for Dubai Launches AI Ethics Council findings=3 model=google/gemini-3-flash-preview quotes=0 statistics=0
+2026-01-05 04:22:41 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:22:41 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:22:41 [info     ] Completed processing: Dubai Launches AI Ethics Council (reprocessed)
+    -> reprocessed: Dubai Launches AI Ethics Council
+
+  [13/405] 2024-06-11_AI_Retreat_Unicorn_Founders_Confirm_Dubai_as_Idea...
+2026-01-05 04:22:41 [info     ] Processing: AI Retreat: Unicorn Founders Confirm Dubai as Ideal Launch Pad for Advanced Technologies
+2026-01-05 04:22:41 [info     ] Uploading text document: 2024-06-11_AI_Retreat_Unicorn_Founders_Confirm_Dubai_as_Ideal.md
+2026-01-05 04:22:42 [info     ] Successfully uploaded: 2024-06-11_AI_Retreat_Unicorn_Founders_Confirm_Dubai_as_Ideal.md (id: a5bc0ae8e9cc11f0b5d46ed6aed274e1)
+2026-01-05 04:22:42 [info     ] Parsing 1 documents
+2026-01-05 04:22:42 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:22:42 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:22:42 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:22:54 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1805 tokens_prompt=2695
+2026-01-05 04:22:54 [info     ] Extraction complete for AI Retreat: Unicorn Founders Confirm Dubai as Ideal Launch Pad for Advanced Technologies findings=4 model=google/gemini-3-flash-preview quotes=1 statistics=1
+2026-01-05 04:22:55 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:22:55 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:22:55 [info     ] Completed processing: AI Retreat: Unicorn Founders Confirm Dubai as Ideal Launch Pad for Advanced Technologies (reprocessed)
+    -> reprocessed: AI Retreat: Unicorn Founders Confirm Dubai as Idea
+
+  [14/405] 2024-06-11b_AI_Retreat_Minister_of_State_for_AI_Forecasts_AI...
+2026-01-05 04:22:55 [info     ] Processing: AI Retreat: Minister of State for AI Forecasts AI will shape Dubai's next 185 years of development
+2026-01-05 04:22:55 [info     ] Uploading text document: 2024-06-11b_AI_Retreat_Minister_of_State_for_AI_Forecasts_AI_w.md
+2026-01-05 04:22:55 [info     ] Successfully uploaded: 2024-06-11b_AI_Retreat_Minister_of_State_for_AI_Forecasts_AI_w.md (id: ae7b8867e9cc11f0aada6ed6aed274e1)
+2026-01-05 04:22:55 [info     ] Parsing 1 documents
+2026-01-05 04:22:55 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:22:55 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:22:55 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:23:11 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2467 tokens_prompt=2871
+2026-01-05 04:23:11 [info     ] Extraction complete for AI Retreat: Minister of State for AI Forecasts AI will shape Dubai's next 185 years of development findings=4 model=google/gemini-3-flash-preview quotes=2 statistics=3
+2026-01-05 04:23:12 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:23:12 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:23:12 [info     ] Completed processing: AI Retreat: Minister of State for AI Forecasts AI will shape Dubai's next 185 years of development (reprocessed)
+    -> reprocessed: AI Retreat: Minister of State for AI Forecasts AI 
+
+  [15/405] 2024-06-12_AI_Retreat_2024_Hosts_Four_Intensive_Roundtables_...
+2026-01-05 04:23:12 [info     ] Processing: AI Retreat 2024 Hosts Four Intensive Roundtables on AI Integration at Museum of the Future
+2026-01-05 04:23:13 [info     ] Uploading text document: 2024-06-12_AI_Retreat_2024_Hosts_Four_Intensive_Roundtables_o.md
+2026-01-05 04:23:13 [info     ] Successfully uploaded: 2024-06-12_AI_Retreat_2024_Hosts_Four_Intensive_Roundtables_o.md (id: b851c29ce9cc11f0ae256ed6aed274e1)
+2026-01-05 04:23:13 [info     ] Parsing 1 documents
+2026-01-05 04:23:13 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:23:13 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:23:13 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:23:29 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2557 tokens_prompt=2810
+2026-01-05 04:23:29 [info     ] Extraction complete for AI Retreat 2024 Hosts Four Intensive Roundtables on AI Integration at Museum of the Future findings=5 model=google/gemini-3-flash-preview quotes=1 statistics=4
+2026-01-05 04:23:30 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:23:30 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:23:30 [info     ] Completed processing: AI Retreat 2024 Hosts Four Intensive Roundtables on AI Integration at Museum of the Future (reprocessed)
+    -> reprocessed: AI Retreat 2024 Hosts Four Intensive Roundtables o
+
+  [16/405] 2024-07-08_Dubai_AI_Center_Announces_Quantum-AI_Research_Ini...
+2026-01-05 04:23:30 [info     ] Processing: Dubai AI Center Announces Quantum-AI Research Initiative
+2026-01-05 04:23:30 [info     ] Uploading text document: 2024-07-08_Dubai_AI_Center_Announces_Quantum-AI_Research_Init.md
+2026-01-05 04:23:30 [info     ] Successfully uploaded: 2024-07-08_Dubai_AI_Center_Announces_Quantum-AI_Research_Init.md (id: c3620e4ce9cc11f0a1e86ed6aed274e1)
+2026-01-05 04:23:30 [info     ] Parsing 1 documents
+2026-01-05 04:23:30 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:23:30 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:23:30 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:23:40 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1476 tokens_prompt=2407
+2026-01-05 04:23:40 [info     ] Extraction complete for Dubai AI Center Announces Quantum-AI Research Initiative findings=2 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:23:41 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:23:41 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:23:41 [info     ] Completed processing: Dubai AI Center Announces Quantum-AI Research Initiative (reprocessed)
+    -> reprocessed: Dubai AI Center Announces Quantum-AI Research Init
+
+  [17/405] 2024-08-25_Dubai_Future_Foundation_Releases_AI_Roadmap_2030...
+2026-01-05 04:23:41 [info     ] Processing: Dubai Future Foundation Releases AI Roadmap 2030
+2026-01-05 04:23:41 [info     ] Uploading text document: 2024-08-25_Dubai_Future_Foundation_Releases_AI_Roadmap_2030.md
+2026-01-05 04:23:41 [info     ] Successfully uploaded: 2024-08-25_Dubai_Future_Foundation_Releases_AI_Roadmap_2030.md (id: c9520e33e9cc11f0a3246ed6aed274e1)
+2026-01-05 04:23:41 [info     ] Parsing 1 documents
+2026-01-05 04:23:41 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:23:41 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:23:41 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:23:51 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1596 tokens_prompt=2420
+2026-01-05 04:23:51 [info     ] Extraction complete for Dubai Future Foundation Releases AI Roadmap 2030 findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=1
+2026-01-05 04:23:52 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:23:52 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:23:52 [info     ] Completed processing: Dubai Future Foundation Releases AI Roadmap 2030 (reprocessed)
+    -> reprocessed: Dubai Future Foundation Releases AI Roadmap 2030
+
+  [18/405] 2024-09-16_Dubai_AI_Week_2024_Showcases_Breakthrough_Technol...
+2026-01-05 04:23:52 [info     ] Processing: Dubai AI Week 2024 Showcases Breakthrough Technologies
+2026-01-05 04:23:52 [info     ] Uploading text document: 2024-09-16_Dubai_AI_Week_2024_Showcases_Breakthrough_Technolo.md
+2026-01-05 04:23:52 [info     ] Successfully uploaded: 2024-09-16_Dubai_AI_Week_2024_Showcases_Breakthrough_Technolo.md (id: d06fb4e2e9cc11f0b9666ed6aed274e1)
+2026-01-05 04:23:52 [info     ] Parsing 1 documents
+2026-01-05 04:23:52 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:23:52 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:23:52 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:24:03 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1732 tokens_prompt=2427
+2026-01-05 04:24:03 [info     ] Extraction complete for Dubai AI Week 2024 Showcases Breakthrough Technologies findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=1
+2026-01-05 04:24:04 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:24:04 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:24:04 [info     ] Completed processing: Dubai AI Week 2024 Showcases Breakthrough Technologies (reprocessed)
+    -> reprocessed: Dubai AI Week 2024 Showcases Breakthrough Technolo
+
+  [19/405] 2024-10-22_Dubai_AI_Center_Launches_Smart_Transportation_AI_...
+2026-01-05 04:24:04 [info     ] Processing: Dubai AI Center Launches Smart Transportation AI Project
+2026-01-05 04:24:04 [info     ] Uploading text document: 2024-10-22_Dubai_AI_Center_Launches_Smart_Transportation_AI_P.md
+2026-01-05 04:24:04 [info     ] Successfully uploaded: 2024-10-22_Dubai_AI_Center_Launches_Smart_Transportation_AI_P.md (id: d8227ebae9cc11f08b6c6ed6aed274e1)
+2026-01-05 04:24:04 [info     ] Parsing 1 documents
+2026-01-05 04:24:05 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:24:05 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:24:05 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:24:15 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1482 tokens_prompt=2403
+2026-01-05 04:24:15 [info     ] Extraction complete for Dubai AI Center Launches Smart Transportation AI Project findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:24:16 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:24:16 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:24:16 [info     ] Completed processing: Dubai AI Center Launches Smart Transportation AI Project (reprocessed)
+    -> reprocessed: Dubai AI Center Launches Smart Transportation AI P
+
+  [20/405] 2024-11-14_Dubai_Hosts_International_AI_Governance_Conferenc...
+2026-01-05 04:24:16 [info     ] Processing: Dubai Hosts International AI Governance Conference
+2026-01-05 04:24:16 [info     ] Uploading text document: 2024-11-14_Dubai_Hosts_International_AI_Governance_Conference.md
+2026-01-05 04:24:16 [info     ] Successfully uploaded: 2024-11-14_Dubai_Hosts_International_AI_Governance_Conference.md (id: de7a23a8e9cc11f0b6806ed6aed274e1)
+2026-01-05 04:24:16 [info     ] Parsing 1 documents
+2026-01-05 04:24:16 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:24:16 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:24:16 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:24:26 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1487 tokens_prompt=2397
+2026-01-05 04:24:26 [info     ] Extraction complete for Dubai Hosts International AI Governance Conference findings=2 model=google/gemini-3-flash-preview quotes=1 statistics=1
+2026-01-05 04:24:27 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:24:27 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:24:27 [info     ] Completed processing: Dubai Hosts International AI Governance Conference (reprocessed)
+    -> reprocessed: Dubai Hosts International AI Governance Conference
+
+  === Progress: 20/405 (4.9%) | Rate: 4.8/min | ETA: 80 min ===
+
+
+  [21/405] 2024-12-19_Dubai_hosts_over_60_startups_entrepreneurs_for_AI...
+2026-01-05 04:24:27 [info     ] Processing: Dubai hosts over 60 startups, entrepreneurs for AI Connect event
+2026-01-05 04:24:27 [info     ] Uploading text document: 2024-12-19_Dubai_hosts_over_60_startups_entrepreneurs_for_AI_.md
+2026-01-05 04:24:28 [info     ] Successfully uploaded: 2024-12-19_Dubai_hosts_over_60_startups_entrepreneurs_for_AI_.md (id: e5a9f1fde9cc11f0bfe26ed6aed274e1)
+2026-01-05 04:24:28 [info     ] Parsing 1 documents
+2026-01-05 04:24:28 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:24:28 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:24:28 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:24:39 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1941 tokens_prompt=2757
+2026-01-05 04:24:39 [info     ] Extraction complete for Dubai hosts over 60 startups, entrepreneurs for AI Connect event findings=4 model=google/gemini-3-flash-preview quotes=1 statistics=1
+2026-01-05 04:24:40 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:24:40 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:24:40 [info     ] Completed processing: Dubai hosts over 60 startups, entrepreneurs for AI Connect event (reprocessed)
+    -> reprocessed: Dubai hosts over 60 startups, entrepreneurs for AI
+
+  [22/405] 2025-01-10_Dubai_Future_Foundation_Announces_AI_for_Climate_...
+2026-01-05 04:24:41 [info     ] Processing: Dubai Future Foundation Announces AI for Climate Initiative
+2026-01-05 04:24:41 [info     ] Uploading text document: 2025-01-10_Dubai_Future_Foundation_Announces_AI_for_Climate_I.md
+2026-01-05 04:24:41 [info     ] Successfully uploaded: 2025-01-10_Dubai_Future_Foundation_Announces_AI_for_Climate_I.md (id: ed197d9ce9cc11f099b76ed6aed274e1)
+2026-01-05 04:24:41 [info     ] Parsing 1 documents
+2026-01-05 04:24:41 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:24:41 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:24:41 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:24:50 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1603 tokens_prompt=2408
+2026-01-05 04:24:50 [info     ] Extraction complete for Dubai Future Foundation Announces AI for Climate Initiative findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=1
+2026-01-05 04:24:51 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:24:51 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:24:51 [info     ] Completed processing: Dubai Future Foundation Announces AI for Climate Initiative (reprocessed)
+    -> reprocessed: Dubai Future Foundation Announces AI for Climate I
+
+  [23/405] 2025-01-14_DCAI opens global registrations for One Million P...
+2026-01-05 04:24:51 [info     ] Processing: DCAI opens global registrations for
+2026-01-05 04:24:52 [info     ] Uploading text document: 2025-01-14_DCAI opens global registrations for One Million Prompters initiative.md
+2026-01-05 04:24:52 [info     ] Successfully uploaded: 2025-01-14_DCAI opens global registrations for One Million Prompters initiative.md (id: f3f168cfe9cc11f0b1d56ed6aed274e1)
+2026-01-05 04:24:52 [info     ] Parsing 1 documents
+2026-01-05 04:24:52 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:24:52 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:24:52 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:25:04 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1957 tokens_prompt=2619
+2026-01-05 04:25:04 [info     ] Extraction complete for DCAI opens global registrations for findings=3 model=google/gemini-3-flash-preview quotes=2 statistics=1
+2026-01-05 04:25:05 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:25:05 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:25:05 [info     ] Completed processing: DCAI opens global registrations for (reprocessed)
+    -> reprocessed: DCAI opens global registrations for
+
+  [24/405] 2025-01-20_Dubai Introduces AI Seal to Certify Trusted AI Co...
+2026-01-05 04:25:05 [info     ] Processing: Dubai Introduces AI Seal to Certify
+2026-01-05 04:25:05 [info     ] Uploading text document: 2025-01-20_Dubai Introduces AI Seal to Certify Trusted AI Companies.md
+2026-01-05 04:25:05 [info     ] Successfully uploaded: 2025-01-20_Dubai Introduces AI Seal to Certify Trusted AI Companies.md (id: fb4a6577e9cc11f0989c6ed6aed274e1)
+2026-01-05 04:25:05 [info     ] Parsing 1 documents
+2026-01-05 04:25:05 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:25:05 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:25:05 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:25:17 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1991 tokens_prompt=2560
+2026-01-05 04:25:17 [info     ] Extraction complete for Dubai Introduces AI Seal to Certify findings=5 model=google/gemini-3-flash-preview quotes=1 statistics=1
+2026-01-05 04:25:18 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:25:18 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:25:18 [info     ] Completed processing: Dubai Introduces AI Seal to Certify (reprocessed)
+    -> reprocessed: Dubai Introduces AI Seal to Certify
+
+  [25/405] 2025-01-20_Dubai_Introduces_AI_Seal_to_Certify_Trusted_AI_Co...
+2026-01-05 04:25:19 [info     ] Processing: Dubai Introduces AI Seal to Certify Trusted AI Companies
+2026-01-05 04:25:19 [info     ] Uploading text document: 2025-01-20_Dubai_Introduces_AI_Seal_to_Certify_Trusted_AI_Com.md
+2026-01-05 04:25:19 [info     ] Successfully uploaded: 2025-01-20_Dubai_Introduces_AI_Seal_to_Certify_Trusted_AI_Com.md (id: 04179b24e9cd11f089496ed6aed274e1)
+2026-01-05 04:25:19 [info     ] Parsing 1 documents
+2026-01-05 04:25:19 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:25:19 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:25:19 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:25:31 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1771 tokens_prompt=2511
+2026-01-05 04:25:31 [info     ] Extraction complete for Dubai Introduces AI Seal to Certify Trusted AI Companies findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=1
+2026-01-05 04:25:32 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:25:32 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:25:32 [info     ] Completed processing: Dubai Introduces AI Seal to Certify Trusted AI Companies (reprocessed)
+    -> reprocessed: Dubai Introduces AI Seal to Certify Trusted AI Com
+
+  [26/405] 2025-02-28_Dubai_AI_Center_Establishes_Global_AI_Research_Ne...
+2026-01-05 04:25:32 [info     ] Processing: Dubai AI Center Establishes Global AI Research Network
+2026-01-05 04:25:32 [info     ] Uploading text document: 2025-02-28_Dubai_AI_Center_Establishes_Global_AI_Research_Net.md
+2026-01-05 04:25:32 [info     ] Successfully uploaded: 2025-02-28_Dubai_AI_Center_Establishes_Global_AI_Research_Net.md (id: 0b5cd189e9cd11f085776ed6aed274e1)
+2026-01-05 04:25:32 [info     ] Parsing 1 documents
+2026-01-05 04:25:32 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:25:32 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:25:32 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:25:41 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1384 tokens_prompt=2407
+2026-01-05 04:25:41 [info     ] Extraction complete for Dubai AI Center Establishes Global AI Research Network findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:25:42 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:25:42 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:25:42 [info     ] Completed processing: Dubai AI Center Establishes Global AI Research Network (reprocessed)
+    -> reprocessed: Dubai AI Center Establishes Global AI Research Net
+
+  [27/405] 2025-03-15_Dubai_Launches_AI-Powered_Government_Services_Pla...
+2026-01-05 04:25:42 [info     ] Processing: Dubai Launches AI-Powered Government Services Platform
+2026-01-05 04:25:42 [info     ] Uploading text document: 2025-03-15_Dubai_Launches_AI-Powered_Government_Services_Plat.md
+2026-01-05 04:25:42 [info     ] Successfully uploaded: 2025-03-15_Dubai_Launches_AI-Powered_Government_Services_Plat.md (id: 11f20cabe9cd11f08ce86ed6aed274e1)
+2026-01-05 04:25:42 [info     ] Parsing 1 documents
+2026-01-05 04:25:42 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:25:42 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:25:42 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:25:53 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1579 tokens_prompt=2398
+2026-01-05 04:25:53 [info     ] Extraction complete for Dubai Launches AI-Powered Government Services Platform findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:25:54 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:25:54 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:25:54 [info     ] Completed processing: Dubai Launches AI-Powered Government Services Platform (reprocessed)
+    -> reprocessed: Dubai Launches AI-Powered Government Services Plat
+
+  [28/405] 2025-04-24_Dubai Future Foundation University of Birmingham ...
+2026-01-05 04:25:54 [info     ] Processing: Dubai Future Foundation, University of Birmingham Dubai boost AI collaboration
+2026-01-05 04:25:55 [info     ] Uploading text document: 2025-04-24_Dubai Future Foundation University of Birmingham Dubai boost AI collaboration.md
+2026-01-05 04:25:55 [info     ] Successfully uploaded: 2025-04-24_Dubai Future Foundation University of Birmingham Dubai boost AI collaboration.md (id: 19a41ba4e9cd11f080d76ed6aed274e1)
+2026-01-05 04:25:55 [info     ] Parsing 1 documents
+2026-01-05 04:25:55 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:25:55 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:25:55 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:26:06 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1825 tokens_prompt=2552
+2026-01-05 04:26:06 [info     ] Extraction complete for Dubai Future Foundation, University of Birmingham Dubai boost AI collaboration findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=1
+2026-01-05 04:26:07 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:26:07 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:26:07 [info     ] Completed processing: Dubai Future Foundation, University of Birmingham Dubai boost AI collaboration (reprocessed)
+    -> reprocessed: Dubai Future Foundation, University of Birmingham 
+
+  [29/405] 2025-04-24_Dubai_Future_Foundation,University_of_Birmingham_...
+2026-01-05 04:26:07 [info     ] Processing: Dubai Future Foundation, University of Birmingham Dubai boost AI collaboration
+2026-01-05 04:26:07 [info     ] Uploading text document: 2025-04-24_Dubai_Future_Foundation,University_of_Birmingham_D.md
+2026-01-05 04:26:07 [info     ] Successfully uploaded: 2025-04-24_Dubai_Future_Foundation,University_of_Birmingham_D.md (id: 20b03fb7e9cd11f0baa56ed6aed274e1)
+2026-01-05 04:26:07 [info     ] Parsing 1 documents
+2026-01-05 04:26:07 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:26:07 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:26:07 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:26:19 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1695 tokens_prompt=2517
+2026-01-05 04:26:19 [info     ] Extraction complete for Dubai Future Foundation, University of Birmingham Dubai boost AI collaboration findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:26:20 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:26:20 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:26:20 [info     ] Completed processing: Dubai Future Foundation, University of Birmingham Dubai boost AI collaboration (reprocessed)
+    -> reprocessed: Dubai Future Foundation, University of Birmingham 
+
+  [30/405] 2025-04-25_Dubai AI Academy Launch During Dubai AI Week 2025...
+2026-01-05 04:26:20 [info     ] Processing: Dubai AI Academy Launch During Dubai AI Week 2025
+2026-01-05 04:26:20 [info     ] Uploading text document: 2025-04-25_Dubai AI Academy Launch During Dubai AI Week 2025.md
+2026-01-05 04:26:20 [info     ] Successfully uploaded: 2025-04-25_Dubai AI Academy Launch During Dubai AI Week 2025.md (id: 28be3a68e9cd11f0b9306ed6aed274e1)
+2026-01-05 04:26:20 [info     ] Parsing 1 documents
+2026-01-05 04:26:20 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:26:20 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:26:20 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:26:30 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1679 tokens_prompt=2576
+2026-01-05 04:26:30 [info     ] Extraction complete for Dubai AI Academy Launch During Dubai AI Week 2025 findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=1
+2026-01-05 04:26:31 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:26:31 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:26:31 [info     ] Completed processing: Dubai AI Academy Launch During Dubai AI Week 2025 (reprocessed)
+    -> reprocessed: Dubai AI Academy Launch During Dubai AI Week 2025
+
+  === Progress: 30/405 (7.4%) | Rate: 4.8/min | ETA: 78 min ===
+
+
+  [31/405] 2025-04-25_Dubai AI Week 2025 DFF Google Cloud partner to em...
+2026-01-05 04:26:31 [info     ] Processing: Dubai AI Week 2025: DFF, Google Cloud partner to empower chief AI officers
+2026-01-05 04:26:31 [info     ] Uploading text document: 2025-04-25_Dubai AI Week 2025 DFF Google Cloud partner to empower chief AI officers.md
+2026-01-05 04:26:31 [info     ] Successfully uploaded: 2025-04-25_Dubai AI Week 2025 DFF Google Cloud partner to empower chief AI officers.md (id: 2edb3fa6e9cd11f082786ed6aed274e1)
+2026-01-05 04:26:31 [info     ] Parsing 1 documents
+2026-01-05 04:26:31 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:26:31 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:26:31 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:26:44 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2133 tokens_prompt=2701
+2026-01-05 04:26:44 [info     ] Extraction complete for Dubai AI Week 2025: DFF, Google Cloud partner to empower chief AI officers findings=3 model=google/gemini-3-flash-preview quotes=2 statistics=2
+2026-01-05 04:26:45 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:26:45 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:26:45 [info     ] Completed processing: Dubai AI Week 2025: DFF, Google Cloud partner to empower chief AI officers (reprocessed)
+    -> reprocessed: Dubai AI Week 2025: DFF, Google Cloud partner to e
+
+  [32/405] 2025-04-25_Dubai_AI_Week_2025__DFF,_Google_Cloud_partner_to_...
+2026-01-05 04:26:45 [info     ] Processing: Dubai AI Week 2025: DFF, Google Cloud partner to empower chief AI officers
+2026-01-05 04:26:45 [info     ] Uploading text document: 2025-04-25_Dubai_AI_Week_2025__DFF,_Google_Cloud_partner_to_e.md
+2026-01-05 04:26:46 [info     ] Successfully uploaded: 2025-04-25_Dubai_AI_Week_2025__DFF,_Google_Cloud_partner_to_e.md (id: 37c81629e9cd11f09f916ed6aed274e1)
+2026-01-05 04:26:46 [info     ] Parsing 1 documents
+2026-01-05 04:26:46 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:26:46 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:26:46 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:26:59 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2305 tokens_prompt=2722
+2026-01-05 04:26:59 [info     ] Extraction complete for Dubai AI Week 2025: DFF, Google Cloud partner to empower chief AI officers findings=4 model=google/gemini-3-flash-preview quotes=2 statistics=2
+2026-01-05 04:27:00 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:27:00 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:27:00 [info     ] Completed processing: Dubai AI Week 2025: DFF, Google Cloud partner to empower chief AI officers (reprocessed)
+    -> reprocessed: Dubai AI Week 2025: DFF, Google Cloud partner to e
+
+  [33/405] 2025-04-25_Dubai_AI_Week_2025_DFF_Google_Cloud_partner_to_em...
+2026-01-05 04:27:01 [info     ] Processing: Dubai AI Week 2025: DFF, Google Cloud partner to empower chief AI officers
+2026-01-05 04:27:01 [info     ] Uploading text document: 2025-04-25_Dubai_AI_Week_2025_DFF_Google_Cloud_partner_to_emp.md
+2026-01-05 04:27:01 [info     ] Successfully uploaded: 2025-04-25_Dubai_AI_Week_2025_DFF_Google_Cloud_partner_to_emp.md (id: 40761698e9cd11f0a3686ed6aed274e1)
+2026-01-05 04:27:01 [info     ] Parsing 1 documents
+2026-01-05 04:27:01 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:27:01 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:27:01 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:27:15 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2204 tokens_prompt=2863
+2026-01-05 04:27:15 [info     ] Extraction complete for Dubai AI Week 2025: DFF, Google Cloud partner to empower chief AI officers findings=4 model=google/gemini-3-flash-preview quotes=2 statistics=2
+2026-01-05 04:27:16 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:27:16 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:27:16 [info     ] Completed processing: Dubai AI Week 2025: DFF, Google Cloud partner to empower chief AI officers (reprocessed)
+    -> reprocessed: Dubai AI Week 2025: DFF, Google Cloud partner to e
+
+  [34/405] 2025-05-20_Dubai_AI_Week_2025_Focuses_on_Sustainable_AI_Deve...
+2026-01-05 04:27:16 [info     ] Processing: Dubai AI Week 2025 Focuses on Sustainable AI Development
+2026-01-05 04:27:16 [info     ] Uploading text document: 2025-05-20_Dubai_AI_Week_2025_Focuses_on_Sustainable_AI_Devel.md
+2026-01-05 04:27:16 [info     ] Successfully uploaded: 2025-05-20_Dubai_AI_Week_2025_Focuses_on_Sustainable_AI_Devel.md (id: 4a075da6e9cd11f0a4136ed6aed274e1)
+2026-01-05 04:27:16 [info     ] Parsing 1 documents
+2026-01-05 04:27:16 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:27:16 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:27:16 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:27:26 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1684 tokens_prompt=2427
+2026-01-05 04:27:26 [info     ] Extraction complete for Dubai AI Week 2025 Focuses on Sustainable AI Development findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:27:27 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:27:27 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:27:27 [info     ] Completed processing: Dubai AI Week 2025 Focuses on Sustainable AI Development (reprocessed)
+    -> reprocessed: Dubai AI Week 2025 Focuses on Sustainable AI Devel
+
+  [35/405] 2025-06-18_Dubai_Future_Foundation_Launches_AI_Education_Ini...
+2026-01-05 04:27:27 [info     ] Processing: Dubai Future Foundation Launches AI Education Initiative for Schools
+2026-01-05 04:27:28 [info     ] Uploading text document: 2025-06-18_Dubai_Future_Foundation_Launches_AI_Education_Init.md
+2026-01-05 04:27:28 [info     ] Successfully uploaded: 2025-06-18_Dubai_Future_Foundation_Launches_AI_Education_Init.md (id: 505d6ad8e9cd11f0af546ed6aed274e1)
+2026-01-05 04:27:28 [info     ] Parsing 1 documents
+2026-01-05 04:27:28 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:27:28 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:27:28 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:27:38 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1646 tokens_prompt=2410
+2026-01-05 04:27:38 [info     ] Extraction complete for Dubai Future Foundation Launches AI Education Initiative for Schools findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:27:39 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:27:39 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:27:39 [info     ] Completed processing: Dubai Future Foundation Launches AI Education Initiative for Schools (reprocessed)
+    -> reprocessed: Dubai Future Foundation Launches AI Education Init
+
+  [36/405] 2025-07-12_Dubai_AI_Center_Announces_Breakthrough_in_Arabic_...
+2026-01-05 04:27:39 [info     ] Processing: Dubai AI Center Announces Breakthrough in Arabic Language AI
+2026-01-05 04:27:39 [info     ] Uploading text document: 2025-07-12_Dubai_AI_Center_Announces_Breakthrough_in_Arabic_L.md
+2026-01-05 04:27:39 [info     ] Successfully uploaded: 2025-07-12_Dubai_AI_Center_Announces_Breakthrough_in_Arabic_L.md (id: 57c9733ee9cd11f0a7f66ed6aed274e1)
+2026-01-05 04:27:39 [info     ] Parsing 1 documents
+2026-01-05 04:27:39 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:27:39 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:27:39 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:27:50 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1489 tokens_prompt=2401
+2026-01-05 04:27:50 [info     ] Extraction complete for Dubai AI Center Announces Breakthrough in Arabic Language AI findings=2 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:27:51 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:27:51 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:27:51 [info     ] Completed processing: Dubai AI Center Announces Breakthrough in Arabic Language AI (reprocessed)
+    -> reprocessed: Dubai AI Center Announces Breakthrough in Arabic L
+
+  [37/405] 2025-07-25_Dubai_Establishes_AI_Innovation_Fund_for_Startups...
+2026-01-05 04:27:51 [info     ] Processing: Dubai Establishes AI Innovation Fund for Startups
+2026-01-05 04:27:51 [info     ] Uploading text document: 2025-07-25_Dubai_Establishes_AI_Innovation_Fund_for_Startups.md
+2026-01-05 04:27:51 [info     ] Successfully uploaded: 2025-07-25_Dubai_Establishes_AI_Innovation_Fund_for_Startups.md (id: 5eb316c2e9cd11f0a6566ed6aed274e1)
+2026-01-05 04:27:51 [info     ] Parsing 1 documents
+2026-01-05 04:27:51 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:27:51 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:27:51 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:28:01 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1607 tokens_prompt=2414
+2026-01-05 04:28:01 [info     ] Extraction complete for Dubai Establishes AI Innovation Fund for Startups findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=1
+2026-01-05 04:28:02 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:28:02 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:28:02 [info     ] Completed processing: Dubai Establishes AI Innovation Fund for Startups (reprocessed)
+    -> reprocessed: Dubai Establishes AI Innovation Fund for Startups
+
+  [38/405] 2025-08-08_Dubai_AI_Center_Partners_with_Healthcare_Leaders_...
+2026-01-05 04:28:02 [info     ] Processing: Dubai AI Center Partners with Healthcare Leaders for Medical AI
+2026-01-05 04:28:02 [info     ] Uploading text document: 2025-08-08_Dubai_AI_Center_Partners_with_Healthcare_Leaders_f.md
+2026-01-05 04:28:02 [info     ] Successfully uploaded: 2025-08-08_Dubai_AI_Center_Partners_with_Healthcare_Leaders_f.md (id: 6537fb32e9cd11f097436ed6aed274e1)
+2026-01-05 04:28:02 [info     ] Parsing 1 documents
+2026-01-05 04:28:02 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:28:02 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:28:02 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:28:11 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1467 tokens_prompt=2413
+2026-01-05 04:28:11 [info     ] Extraction complete for Dubai AI Center Partners with Healthcare Leaders for Medical AI findings=3 model=google/gemini-3-flash-preview quotes=1 statistics=0
+2026-01-05 04:28:12 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:28:12 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:28:12 [info     ] Completed processing: Dubai AI Center Partners with Healthcare Leaders for Medical AI (reprocessed)
+    -> reprocessed: Dubai AI Center Partners with Healthcare Leaders f
+
+  [39/405] 2025-08-10_Dubais_AI_Accelerator_Calls_on_Tech_Innovators_to...
+2026-01-05 04:28:12 [info     ] Processing: Dubai's AI Accelerator Calls on Tech Innovators to Engineer the Future of Government Services
+2026-01-05 04:28:13 [info     ] Uploading text document: 2025-08-10_Dubais_AI_Accelerator_Calls_on_Tech_Innovators_to_.md
+2026-01-05 04:28:13 [info     ] Successfully uploaded: 2025-08-10_Dubais_AI_Accelerator_Calls_on_Tech_Innovators_to_.md (id: 6bd49aade9cd11f0b01e6ed6aed274e1)
+2026-01-05 04:28:13 [info     ] Parsing 1 documents
+2026-01-05 04:28:13 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:28:13 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:28:13 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:28:27 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2345 tokens_prompt=2915
+2026-01-05 04:28:27 [info     ] Extraction complete for Dubai's AI Accelerator Calls on Tech Innovators to Engineer the Future of Government Services findings=3 model=google/gemini-3-flash-preview quotes=2 statistics=3
+2026-01-05 04:28:28 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:28:28 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:28:28 [info     ] Completed processing: Dubai's AI Accelerator Calls on Tech Innovators to Engineer the Future of Government Services (reprocessed)
+    -> reprocessed: Dubai's AI Accelerator Calls on Tech Innovators to
+
+  [40/405] a.pdf-df283e51-fa6f-4edd-92fe-b9ae34f6779c...
+2026-01-05 04:28:28 [info     ] Processing: 3 AI Lab in Dubai
+2026-01-05 04:28:28 [info     ] Uploading text document: a.pdf-df283e51-fa6f-4edd-92fe-b9ae34f6779c.md
+2026-01-05 04:28:28 [info     ] Successfully uploaded: a.pdf-df283e51-fa6f-4edd-92fe-b9ae34f6779c.md (id: 74a05e4ce9cd11f0afd76ed6aed274e1)
+2026-01-05 04:28:28 [info     ] Parsing 1 documents
+2026-01-05 04:28:28 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:28:28 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:28:28 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:28:38 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=1421 tokens_prompt=4939
+2026-01-05 04:28:38 [info     ] Extraction complete for 3 AI Lab in Dubai findings=2 model=google/gemini-3-flash-preview quotes=2 statistics=0
+2026-01-05 04:28:39 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:28:39 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:28:39 [info     ] Completed processing: 3 AI Lab in Dubai (reprocessed)
+    -> reprocessed: 3 AI Lab in Dubai
+
+  === Progress: 40/405 (9.9%) | Rate: 4.8/min | ETA: 76 min ===
+
+
+  [41/405] AAAI_Future_of_AI_Research_Report_2025...
+2026-01-05 04:28:39 [info     ] Processing: AAAI 2025 PRESIDENTIAL PANEL ON THE
+2026-01-05 04:28:39 [info     ] Uploading text document: AAAI_Future_of_AI_Research_Report_2025.md
+2026-01-05 04:28:39 [info     ] Successfully uploaded: AAAI_Future_of_AI_Research_Report_2025.md (id: 7b85ed77e9cd11f0b25d6ed6aed274e1)
+2026-01-05 04:28:39 [info     ] Parsing 1 documents
+2026-01-05 04:28:39 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:28:39 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:28:39 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:29:00 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3413 tokens_prompt=56774
+2026-01-05 04:29:00 [info     ] Extraction complete for AAAI 2025 PRESIDENTIAL PANEL ON THE findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=4
+2026-01-05 04:29:01 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:29:01 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:29:01 [info     ] Completed processing: AAAI 2025 PRESIDENTIAL PANEL ON THE (reprocessed)
+    -> reprocessed: AAAI 2025 PRESIDENTIAL PANEL ON THE
+
+  [42/405] Abu_Dhabi_AI_Sectoral_Report_2024...
+2026-01-05 04:29:02 [info     ] Processing: THE STATE OF ARTIFICIAL SECTORAL REPORT
+2026-01-05 04:29:02 [info     ] Uploading text document: Abu_Dhabi_AI_Sectoral_Report_2024.md
+2026-01-05 04:29:02 [info     ] Successfully uploaded: Abu_Dhabi_AI_Sectoral_Report_2024.md (id: 88e4ca93e9cd11f0a4f66ed6aed274e1)
+2026-01-05 04:29:02 [info     ] Parsing 1 documents
+2026-01-05 04:29:02 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:29:02 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:29:02 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:29:24 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3615 tokens_prompt=15963
+2026-01-05 04:29:24 [info     ] Extraction complete for THE STATE OF ARTIFICIAL SECTORAL REPORT findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=6
+2026-01-05 04:29:25 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:29:25 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:29:25 [info     ] Completed processing: THE STATE OF ARTIFICIAL SECTORAL REPORT (reprocessed)
+    -> reprocessed: THE STATE OF ARTIFICIAL SECTORAL REPORT
+
+  [43/405] Accenture_AI_Built_to_Scale_2025...
+2026-01-05 04:29:25 [info     ] Processing: AI: BUILT TO SCALE
+2026-01-05 04:29:25 [info     ] Uploading text document: Accenture_AI_Built_to_Scale_2025.md
+2026-01-05 04:29:25 [info     ] Successfully uploaded: Accenture_AI_Built_to_Scale_2025.md (id: 96b4967ee9cd11f0bcaf6ed6aed274e1)
+2026-01-05 04:29:25 [info     ] Parsing 1 documents
+2026-01-05 04:29:25 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:29:25 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:29:25 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:29:46 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3294 tokens_prompt=10043
+2026-01-05 04:29:46 [info     ] Extraction complete for AI: BUILT TO SCALE findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:29:47 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:29:47 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:29:47 [info     ] Completed processing: AI: BUILT TO SCALE (reprocessed)
+    -> reprocessed: AI: BUILT TO SCALE
+
+  [44/405] Accenture_AI_Government_RFI_2025...
+2026-01-05 04:29:47 [info     ] Processing: > accenture
+2026-01-05 04:29:47 [info     ] Uploading text document: Accenture_AI_Government_RFI_2025.md
+2026-01-05 04:29:47 [info     ] Successfully uploaded: Accenture_AI_Government_RFI_2025.md (id: a37b045fe9cd11f0a13c6ed6aed274e1)
+2026-01-05 04:29:47 [info     ] Parsing 1 documents
+2026-01-05 04:29:47 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:29:47 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:29:47 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:30:05 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2636 tokens_prompt=8957
+2026-01-05 04:30:05 [info     ] Extraction complete for > accenture findings=4 model=google/gemini-3-flash-preview quotes=2 statistics=4
+2026-01-05 04:30:06 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:30:06 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:30:06 [info     ] Completed processing: > accenture (reprocessed)
+    -> reprocessed: > accenture
+
+  [45/405] Accenture_AI_Maturity_Europe_2025...
+2026-01-05 04:30:06 [info     ] Processing: The art of AI maturity
+2026-01-05 04:30:06 [info     ] Uploading text document: Accenture_AI_Maturity_Europe_2025.md
+2026-01-05 04:30:06 [info     ] Successfully uploaded: Accenture_AI_Maturity_Europe_2025.md (id: af661507e9cd11f096116ed6aed274e1)
+2026-01-05 04:30:06 [info     ] Parsing 1 documents
+2026-01-05 04:30:06 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:30:06 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:30:06 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:30:22 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2703 tokens_prompt=15467
+2026-01-05 04:30:22 [info     ] Extraction complete for The art of AI maturity findings=4 model=google/gemini-3-flash-preview quotes=2 statistics=4
+2026-01-05 04:30:23 [info     ] Created report: The art of AI maturity
+2026-01-05 04:30:23 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:30:23 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:30:23 [info     ] Completed processing: The art of AI maturity (processed)
+    -> processed: The art of AI maturity
+
+  [46/405] Accenture_Annual_Report_October_2025.pdf-c658e24d-9393-48d7-...
+2026-01-05 04:30:23 [info     ] Processing: 2025 Annual Report
+2026-01-05 04:30:24 [info     ] Uploading text document: Accenture_Annual_Report_October_2025.pdf-c658e24d-9393-48d7-8fb5-a08019de9b9a.md
+2026-01-05 04:30:24 [info     ] Successfully uploaded: Accenture_Annual_Report_October_2025.pdf-c658e24d-9393-48d7-8fb5-a08019de9b9a.md (id: b97fbdcfe9cd11f08c486ed6aed274e1)
+2026-01-05 04:30:24 [info     ] Parsing 1 documents
+2026-01-05 04:30:24 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:30:24 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:30:24 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:30:42 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2943 tokens_prompt=99208
+2026-01-05 04:30:42 [info     ] Extraction complete for 2025 Annual Report findings=4 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:30:43 [info     ] Created report: 2025 Annual Report
+2026-01-05 04:30:43 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:30:43 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:30:43 [info     ] Completed processing: 2025 Annual Report (processed)
+    -> processed: 2025 Annual Report
+
+  [47/405] Accenture_Art_of_AI_Maturity_Report...
+2026-01-05 04:30:43 [info     ] Processing: The art of AI maturity
+2026-01-05 04:30:44 [info     ] Uploading text document: Accenture_Art_of_AI_Maturity_Report.md
+2026-01-05 04:30:44 [info     ] Successfully uploaded: Accenture_Art_of_AI_Maturity_Report.md (id: c52a69bee9cd11f0ae3b6ed6aed274e1)
+2026-01-05 04:30:44 [info     ] Parsing 1 documents
+2026-01-05 04:30:44 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:30:44 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:30:44 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:31:09 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3786 tokens_prompt=14966
+2026-01-05 04:31:09 [info     ] Extraction complete for The art of AI maturity findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=6
+2026-01-05 04:31:10 [info     ] Created report: The art of AI maturity
+2026-01-05 04:31:10 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:31:10 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:31:10 [info     ] Completed processing: The art of AI maturity (processed)
+    -> processed: The art of AI maturity
+
+  [48/405] Accenture_Front_Runners_Guide_Scaling_AI_2025...
+2026-01-05 04:31:10 [info     ] Processing: The front-runners' guide to scaling AI
+2026-01-05 04:31:10 [info     ] Uploading text document: Accenture_Front_Runners_Guide_Scaling_AI_2025.md
+2026-01-05 04:31:10 [info     ] Successfully uploaded: Accenture_Front_Runners_Guide_Scaling_AI_2025.md (id: d50a54d5e9cd11f08b2d6ed6aed274e1)
+2026-01-05 04:31:10 [info     ] Parsing 1 documents
+2026-01-05 04:31:10 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:31:10 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:31:10 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:31:30 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3381 tokens_prompt=18317
+2026-01-05 04:31:30 [info     ] Extraction complete for The front-runners' guide to scaling AI findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:31:31 [info     ] Created report: The front-runners' guide to scaling AI
+2026-01-05 04:31:31 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:31:31 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:31:31 [info     ] Completed processing: The front-runners' guide to scaling AI (processed)
+    -> processed: The front-runners' guide to scaling AI
+
+  [49/405] Accenture_Functions_Reinvention_GenAI_2025...
+2026-01-05 04:31:31 [info     ] Processing: Reinventing enterprise models in the age of generative AI
+2026-01-05 04:31:32 [info     ] Uploading text document: Accenture_Functions_Reinvention_GenAI_2025.md
+2026-01-05 04:31:32 [info     ] Successfully uploaded: Accenture_Functions_Reinvention_GenAI_2025.md (id: e28eb8ece9cd11f092566ed6aed274e1)
+2026-01-05 04:31:32 [info     ] Parsing 1 documents
+2026-01-05 04:31:32 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:31:32 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:31:32 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:31:50 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3186 tokens_prompt=11549
+2026-01-05 04:31:50 [info     ] Extraction complete for Reinventing enterprise models in the age of generative AI findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=4
+2026-01-05 04:31:51 [info     ] Created report: Reinventing enterprise models in the age of generative AI
+2026-01-05 04:31:51 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:31:51 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:31:51 [info     ] Completed processing: Reinventing enterprise models in the age of generative AI (processed)
+    -> processed: Reinventing enterprise models in the age of genera
+
+  [50/405] Accenture_IDC_MarketScape_AI_National_Government_2025...
+2026-01-05 04:31:51 [info     ] Processing: IDC MarketScape
+2026-01-05 04:31:51 [info     ] Uploading text document: Accenture_IDC_MarketScape_AI_National_Government_2025.md
+2026-01-05 04:31:51 [info     ] Successfully uploaded: Accenture_IDC_MarketScape_AI_National_Government_2025.md (id: edd5b472e9cd11f090556ed6aed274e1)
+2026-01-05 04:31:51 [info     ] Parsing 1 documents
+2026-01-05 04:31:51 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:31:51 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:31:51 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:32:08 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2780 tokens_prompt=6276
+2026-01-05 04:32:08 [info     ] Extraction complete for IDC MarketScape findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=4
+2026-01-05 04:32:09 [info     ] Created report: IDC MarketScape
+2026-01-05 04:32:09 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:32:09 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:32:09 [info     ] Completed processing: IDC MarketScape (processed)
+    -> processed: IDC MarketScape
+
+  === Progress: 50/405 (12.3%) | Rate: 4.2/min | ETA: 84 min ===
+
+
+  [51/405] Accenture_Making_Reinvention_GenAI_2025...
+2026-01-05 04:32:10 [info     ] Processing: ![](images/a8d07ac5388b001f6e44b21cf0d886b5b9155ec726129f6c655d618e3ba7c23f.jpg)
+2026-01-05 04:32:10 [info     ] Uploading text document: Accenture_Making_Reinvention_GenAI_2025.md
+2026-01-05 04:32:10 [info     ] Successfully uploaded: Accenture_Making_Reinvention_GenAI_2025.md (id: f89bf3a5e9cd11f08ab96ed6aed274e1)
+2026-01-05 04:32:10 [info     ] Parsing 1 documents
+2026-01-05 04:32:10 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:32:10 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:32:10 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:32:31 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3433 tokens_prompt=11162
+2026-01-05 04:32:31 [info     ] Extraction complete for ![](images/a8d07ac5388b001f6e44b21cf0d886b5b9155ec726129f6c655d618e3ba7c23f.jpg) findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:32:32 [info     ] Created report: ![](images/a8d07ac5388b001f6e44b21cf0d886b5b9155ec726129f6c655d618e3ba7c23f.jpg)
+2026-01-05 04:32:32 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:32:32 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:32:32 [info     ] Completed processing: ![](images/a8d07ac5388b001f6e44b21cf0d886b5b9155ec726129f6c655d618e3ba7c23f.jpg) (processed)
+    -> processed: ![](images/a8d07ac5388b001f6e44b21cf0d886b5b9155ec
+
+  [52/405] Accenture_Reinvention_Age_GenAI_2025...
+2026-01-05 04:32:32 [info     ] Processing: Reinvention in the age of generative AI
+2026-01-05 04:32:33 [info     ] Uploading text document: Accenture_Reinvention_Age_GenAI_2025.md
+2026-01-05 04:32:33 [info     ] Successfully uploaded: Accenture_Reinvention_Age_GenAI_2025.md (id: 07142361e9ce11f08ae76ed6aed274e1)
+2026-01-05 04:32:33 [info     ] Parsing 1 documents
+2026-01-05 04:32:33 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:32:33 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:32:33 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:32:49 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2840 tokens_prompt=12990
+2026-01-05 04:32:49 [info     ] Extraction complete for Reinvention in the age of generative AI findings=4 model=google/gemini-3-flash-preview quotes=2 statistics=4
+2026-01-05 04:32:50 [info     ] Created report: Reinvention in the age of generative AI
+2026-01-05 04:32:50 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:32:50 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:32:50 [info     ] Completed processing: Reinvention in the age of generative AI (processed)
+    -> processed: Reinvention in the age of generative AI
+
+  [53/405] Accenture_Reinvention_Generative_AI_Executive_Summary...
+2026-01-05 04:32:50 [info     ] Processing: Reinvention in the age of generative AI
+2026-01-05 04:32:51 [info     ] Uploading text document: Accenture_Reinvention_Generative_AI_Executive_Summary.md
+2026-01-05 04:32:51 [info     ] Successfully uploaded: Accenture_Reinvention_Generative_AI_Executive_Summary.md (id: 114d25b6e9ce11f09b306ed6aed274e1)
+2026-01-05 04:32:51 [info     ] Parsing 1 documents
+2026-01-05 04:32:51 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:32:51 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:32:51 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:33:11 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3509 tokens_prompt=11753
+2026-01-05 04:33:11 [info     ] Extraction complete for Reinvention in the age of generative AI findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=5
+2026-01-05 04:33:12 [info     ] Created report: Reinvention in the age of generative AI
+2026-01-05 04:33:12 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:33:12 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:33:12 [info     ] Completed processing: Reinvention in the age of generative AI (processed)
+    -> processed: Reinvention in the age of generative AI
+
+  [54/405] Accenture_Strategy_Macro_Foresight_Brief_October_2025...
+2026-01-05 04:33:12 [info     ] Processing: October Macro Brief
+2026-01-05 04:33:13 [info     ] Uploading text document: Accenture_Strategy_Macro_Foresight_Brief_October_2025.md
+2026-01-05 04:33:13 [info     ] Successfully uploaded: Accenture_Strategy_Macro_Foresight_Brief_October_2025.md (id: 1e284edee9ce11f0b71e6ed6aed274e1)
+2026-01-05 04:33:13 [info     ] Parsing 1 documents
+2026-01-05 04:33:13 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:33:13 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:33:13 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:33:33 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3230 tokens_prompt=17245
+2026-01-05 04:33:33 [info     ] Extraction complete for October Macro Brief findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:33:34 [info     ] Created report: October Macro Brief
+2026-01-05 04:33:34 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:33:34 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:33:34 [info     ] Completed processing: October Macro Brief (processed)
+    -> processed: October Macro Brief
+
+  [55/405] Accenture_Tech_Vision_2025...
+2026-01-05 04:33:34 [info     ] Processing: AI: A Declaration of Autonomy
+2026-01-05 04:33:34 [info     ] Uploading text document: Accenture_Tech_Vision_2025.md
+2026-01-05 04:33:34 [info     ] Successfully uploaded: Accenture_Tech_Vision_2025.md (id: 2afb87e4e9ce11f09e8c6ed6aed274e1)
+2026-01-05 04:33:34 [info     ] Parsing 1 documents
+2026-01-05 04:33:34 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:33:34 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:33:34 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:33:55 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3129 tokens_prompt=46683
+2026-01-05 04:33:55 [info     ] Extraction complete for AI: A Declaration of Autonomy findings=4 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:33:55 [info     ] Created report: AI: A Declaration of Autonomy
+2026-01-05 04:33:56 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:33:56 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:33:56 [info     ] Completed processing: AI: A Declaration of Autonomy (processed)
+    -> processed: AI: A Declaration of Autonomy
+
+  [56/405] Accenture_Technology_Vision_2025_AI_Declaration...
+2026-01-05 04:33:56 [info     ] Processing: AI: A Declaration of Autonomy
+2026-01-05 04:33:56 [info     ] Uploading text document: Accenture_Technology_Vision_2025_AI_Declaration.md
+2026-01-05 04:33:56 [info     ] Successfully uploaded: Accenture_Technology_Vision_2025_AI_Declaration.md (id: 38ac7cc2e9ce11f0bcb16ed6aed274e1)
+2026-01-05 04:33:56 [info     ] Parsing 1 documents
+2026-01-05 04:33:56 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:33:56 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:33:56 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:34:17 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3338 tokens_prompt=46683
+2026-01-05 04:34:17 [info     ] Extraction complete for AI: A Declaration of Autonomy findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:34:18 [info     ] Created report: AI: A Declaration of Autonomy
+2026-01-05 04:34:18 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:34:18 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:34:18 [info     ] Completed processing: AI: A Declaration of Autonomy (processed)
+    -> processed: AI: A Declaration of Autonomy
+
+  [57/405] AI_Industry_Landscape_Report_2025...
+2026-01-05 04:34:19 [info     ] Processing: AI Industry Landscape Report 2025
+2026-01-05 04:34:19 [info     ] Uploading text document: AI_Industry_Landscape_Report_2025.md
+2026-01-05 04:34:19 [info     ] Successfully uploaded: AI_Industry_Landscape_Report_2025.md (id: 4606b671e9ce11f089286ed6aed274e1)
+2026-01-05 04:34:19 [info     ] Parsing 1 documents
+2026-01-05 04:34:19 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:34:19 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:34:19 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:34:39 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3263 tokens_prompt=21868
+2026-01-05 04:34:39 [info     ] Extraction complete for AI Industry Landscape Report 2025 findings=6 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:34:39 [info     ] Created report: AI Industry Landscape Report 2025
+2026-01-05 04:34:40 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:34:40 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:34:40 [info     ] Completed processing: AI Industry Landscape Report 2025 (processed)
+    -> processed: AI Industry Landscape Report 2025
+
+  [58/405] AI_Industry_Outlook_2025_Global_Trends...
+2026-01-05 04:34:40 [info     ] Processing: AI Industry Outlook 2025: Global Trends in the US, Europe, and Asia
+2026-01-05 04:34:40 [info     ] Uploading text document: AI_Industry_Outlook_2025_Global_Trends.md
+2026-01-05 04:34:40 [info     ] Successfully uploaded: AI_Industry_Outlook_2025_Global_Trends.md (id: 52751edbe9ce11f0ad2e6ed6aed274e1)
+2026-01-05 04:34:40 [info     ] Parsing 1 documents
+2026-01-05 04:34:40 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:34:40 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:34:40 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:34:59 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3186 tokens_prompt=11149
+2026-01-05 04:34:59 [info     ] Extraction complete for AI Industry Outlook 2025: Global Trends in the US, Europe, and Asia findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:35:00 [info     ] Created report: AI Industry Outlook 2025: Global Trends in the US, Europe, and Asia
+2026-01-05 04:35:00 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:35:00 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:35:00 [info     ] Completed processing: AI Industry Outlook 2025: Global Trends in the US, Europe, and Asia (processed)
+    -> processed: AI Industry Outlook 2025: Global Trends in the US,
+
+  [59/405] AI_Journal_Chief_AI_Officer_Role_Whitepaper_2024...
+2026-01-05 04:35:00 [info     ] Processing: Insights from 20+ Organisations
+2026-01-05 04:35:01 [info     ] Uploading text document: AI_Journal_Chief_AI_Officer_Role_Whitepaper_2024.md
+2026-01-05 04:35:01 [info     ] Successfully uploaded: AI_Journal_Chief_AI_Officer_Role_Whitepaper_2024.md (id: 5e657ebce9ce11f0a1b36ed6aed274e1)
+2026-01-05 04:35:01 [info     ] Parsing 1 documents
+2026-01-05 04:35:01 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:35:01 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:35:01 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:35:23 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3493 tokens_prompt=17156
+2026-01-05 04:35:23 [info     ] Extraction complete for Insights from 20+ Organisations findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=6
+2026-01-05 04:35:24 [info     ] Created report: Insights from 20+ Organisations
+2026-01-05 04:35:24 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:35:24 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:35:24 [info     ] Completed processing: Insights from 20+ Organisations (processed)
+    -> processed: Insights from 20+ Organisations
+
+  [60/405] AI_Now_Institute_AI_Nationalisms_Global_Industrial_Policy_20...
+2026-01-05 04:35:25 [info     ] Processing: AI Nationalism(s): Global Industrial Policy Approaches to AI
+2026-01-05 04:35:25 [info     ] Uploading text document: AI_Now_Institute_AI_Nationalisms_Global_Industrial_Policy_2024.md
+2026-01-05 04:35:25 [info     ] Successfully uploaded: AI_Now_Institute_AI_Nationalisms_Global_Industrial_Policy_2024.md (id: 6cbd18d0e9ce11f093a46ed6aed274e1)
+2026-01-05 04:35:25 [info     ] Parsing 1 documents
+2026-01-05 04:35:25 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:35:25 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:35:25 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:35:47 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3390 tokens_prompt=72778
+2026-01-05 04:35:47 [info     ] Extraction complete for AI Nationalism(s): Global Industrial Policy Approaches to AI findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=4
+2026-01-05 04:35:48 [info     ] Created report: AI Nationalism(s): Global Industrial Policy Approaches to AI
+2026-01-05 04:35:48 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:35:48 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:35:48 [info     ] Completed processing: AI Nationalism(s): Global Industrial Policy Approaches to AI (processed)
+    -> processed: AI Nationalism(s): Global Industrial Policy Approa
+
+  === Progress: 60/405 (14.8%) | Rate: 3.9/min | ETA: 89 min ===
+
+
+  [61/405] AI_Now_Institute_EU_AI_Industrial_Policy_2024...
+2026-01-05 04:35:48 [info     ] Processing: Redirecting Europe's AI Industrial Policy: From Competitiveness to Public Interest
+2026-01-05 04:35:48 [info     ] Uploading text document: AI_Now_Institute_EU_AI_Industrial_Policy_2024.md
+2026-01-05 04:35:49 [info     ] Successfully uploaded: AI_Now_Institute_EU_AI_Industrial_Policy_2024.md (id: 7ba84fa5e9ce11f0ace26ed6aed274e1)
+2026-01-05 04:35:49 [info     ] Parsing 1 documents
+2026-01-05 04:35:49 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:35:49 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:35:49 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:36:10 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3363 tokens_prompt=37860
+2026-01-05 04:36:10 [info     ] Extraction complete for Redirecting Europe's AI Industrial Policy: From Competitiveness to Public Interest findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=4
+2026-01-05 04:36:11 [info     ] Created report: Redirecting Europe's AI Industrial Policy: From Competitiveness to Public Interest
+2026-01-05 04:36:11 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:36:11 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:36:11 [info     ] Completed processing: Redirecting Europe's AI Industrial Policy: From Competitiveness to Public Interest (processed)
+    -> processed: Redirecting Europe's AI Industrial Policy: From Co
+
+  [62/405] AI_Now_Institute_Generative_AI_Business_Models_2024...
+2026-01-05 04:36:11 [info     ] Processing: AI GENERATED BUSINESS
+2026-01-05 04:36:11 [info     ] Uploading text document: AI_Now_Institute_Generative_AI_Business_Models_2024.md
+2026-01-05 04:36:11 [info     ] Successfully uploaded: AI_Now_Institute_Generative_AI_Business_Models_2024.md (id: 890d61cfe9ce11f0a91d6ed6aed274e1)
+2026-01-05 04:36:11 [info     ] Parsing 1 documents
+2026-01-05 04:36:11 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:36:11 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:36:11 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:36:29 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2571 tokens_prompt=16133
+2026-01-05 04:36:29 [info     ] Extraction complete for AI GENERATED BUSINESS findings=3 model=google/gemini-3-flash-preview quotes=2 statistics=4
+2026-01-05 04:36:30 [info     ] Created report: AI GENERATED BUSINESS
+2026-01-05 04:36:30 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:36:30 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:36:30 [info     ] Completed processing: AI GENERATED BUSINESS (processed)
+    -> processed: AI GENERATED BUSINESS
+
+  [63/405] AI_Now_Institute_Lessons_from_FDA_for_AI_2024...
+2026-01-05 04:36:30 [info     ] Processing: LESSONS
+2026-01-05 04:36:30 [info     ] Uploading text document: AI_Now_Institute_Lessons_from_FDA_for_AI_2024.md
+2026-01-05 04:36:31 [info     ] Successfully uploaded: AI_Now_Institute_Lessons_from_FDA_for_AI_2024.md (id: 9427fbb4e9ce11f093066ed6aed274e1)
+2026-01-05 04:36:31 [info     ] Parsing 1 documents
+2026-01-05 04:36:31 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:36:31 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:36:31 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:36:52 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3331 tokens_prompt=37405
+2026-01-05 04:36:52 [info     ] Extraction complete for LESSONS findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=4
+2026-01-05 04:36:53 [info     ] Created report: LESSONS
+2026-01-05 04:36:53 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:36:53 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:36:53 [info     ] Completed processing: LESSONS (processed)
+    -> processed: LESSONS
+
+  [64/405] AI_REAL_Toolkit_DCO_Leadership_Guide...
+2026-01-05 04:36:53 [info     ] Processing: AI-REAL TOOLKIT
+2026-01-05 04:36:53 [info     ] Uploading text document: AI_REAL_Toolkit_DCO_Leadership_Guide.md
+2026-01-05 04:36:53 [info     ] Successfully uploaded: AI_REAL_Toolkit_DCO_Leadership_Guide.md (id: a175c968e9ce11f0aaa36ed6aed274e1)
+2026-01-05 04:36:53 [info     ] Parsing 1 documents
+2026-01-05 04:36:53 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:36:53 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:36:53 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:37:14 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3211 tokens_prompt=50957
+2026-01-05 04:37:14 [info     ] Extraction complete for AI-REAL TOOLKIT findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=4
+2026-01-05 04:37:14 [info     ] Created report: AI-REAL TOOLKIT
+2026-01-05 04:37:15 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:37:15 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:37:15 [info     ] Completed processing: AI-REAL TOOLKIT (processed)
+    -> processed: AI-REAL TOOLKIT
+
+  [65/405] Anthropic_ASL3_Safety_Report_2024...
+2026-01-05 04:37:15 [info     ] Processing: Activating AI Safety Level 3 Protections
+2026-01-05 04:37:15 [info     ] Uploading text document: Anthropic_ASL3_Safety_Report_2024.md
+2026-01-05 04:37:15 [info     ] Successfully uploaded: Anthropic_ASL3_Safety_Report_2024.md (id: af45c1f2e9ce11f0ad0b6ed6aed274e1)
+2026-01-05 04:37:15 [info     ] Parsing 1 documents
+2026-01-05 04:37:15 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:37:15 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:37:15 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:37:31 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2696 tokens_prompt=11616
+2026-01-05 04:37:31 [info     ] Extraction complete for Activating AI Safety Level 3 Protections findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=2
+2026-01-05 04:37:32 [info     ] Created report: Activating AI Safety Level 3 Protections
+2026-01-05 04:37:32 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:37:32 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:37:32 [info     ] Completed processing: Activating AI Safety Level 3 Protections (processed)
+    -> processed: Activating AI Safety Level 3 Protections
+
+  [66/405] Anthropic_Responsible_Scaling_Policy_2025...
+2026-01-05 04:37:32 [info     ] Processing: Responsible Scaling Policy
+2026-01-05 04:37:33 [info     ] Uploading text document: Anthropic_Responsible_Scaling_Policy_2025.md
+2026-01-05 04:37:33 [info     ] Successfully uploaded: Anthropic_Responsible_Scaling_Policy_2025.md (id: b964dfcae9ce11f0b78b6ed6aed274e1)
+2026-01-05 04:37:33 [info     ] Parsing 1 documents
+2026-01-05 04:37:33 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:37:33 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:37:33 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:37:50 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2656 tokens_prompt=13817
+2026-01-05 04:37:50 [info     ] Extraction complete for Responsible Scaling Policy findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=3
+2026-01-05 04:37:51 [info     ] Created report: Responsible Scaling Policy
+2026-01-05 04:37:51 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:37:51 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:37:51 [info     ] Completed processing: Responsible Scaling Policy (processed)
+    -> processed: Responsible Scaling Policy
+
+  [67/405] Anthropic_RSP_Complete_Version_2025...
+2026-01-05 04:37:51 [info     ] Processing: Responsible Scaling Policy
+2026-01-05 04:37:51 [info     ] Uploading text document: Anthropic_RSP_Complete_Version_2025.md
+2026-01-05 04:37:51 [info     ] Successfully uploaded: Anthropic_RSP_Complete_Version_2025.md (id: c42198ece9ce11f0a0016ed6aed274e1)
+2026-01-05 04:37:51 [info     ] Parsing 1 documents
+2026-01-05 04:37:51 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:37:51 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:37:51 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:38:14 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3523 tokens_prompt=13637
+2026-01-05 04:38:14 [info     ] Extraction complete for Responsible Scaling Policy findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=5
+2026-01-05 04:38:15 [info     ] Created report: Responsible Scaling Policy
+2026-01-05 04:38:15 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:38:15 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:38:15 [info     ] Completed processing: Responsible Scaling Policy (processed)
+    -> processed: Responsible Scaling Policy
+
+  [68/405] AppliedAI_Building_Organization_Scaling_AI_2024...
+2026-01-05 04:38:15 [info     ] Processing: Applying AI:
+2026-01-05 04:38:16 [info     ] Uploading text document: AppliedAI_Building_Organization_Scaling_AI_2024.md
+2026-01-05 04:38:16 [info     ] Successfully uploaded: AppliedAI_Building_Organization_Scaling_AI_2024.md (id: d271917fe9ce11f0815c6ed6aed274e1)
+2026-01-05 04:38:16 [info     ] Parsing 1 documents
+2026-01-05 04:38:16 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:38:16 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:38:16 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:38:35 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2988 tokens_prompt=16683
+2026-01-05 04:38:35 [info     ] Extraction complete for Applying AI: findings=7 model=google/gemini-3-flash-preview quotes=2 statistics=2
+2026-01-05 04:38:36 [info     ] Created report: Applying AI:
+2026-01-05 04:38:36 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:38:36 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:38:36 [info     ] Completed processing: Applying AI: (processed)
+    -> processed: Applying AI:
+
+  [69/405] Arab_Reform_AI_National_Strategies_2024...
+2026-01-05 04:38:36 [info     ] Processing: ![](images/1f051b9b5ddd487a1bef99ad8da40b6ee211da459d73b1c9cb647b0556c8179c.jpg)
+2026-01-05 04:38:36 [info     ] Uploading text document: Arab_Reform_AI_National_Strategies_2024.md
+2026-01-05 04:38:36 [info     ] Successfully uploaded: Arab_Reform_AI_National_Strategies_2024.md (id: df7c1038e9ce11f0af606ed6aed274e1)
+2026-01-05 04:38:36 [info     ] Parsing 1 documents
+2026-01-05 04:38:36 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:38:36 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:38:36 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:38:55 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3210 tokens_prompt=9972
+2026-01-05 04:38:55 [info     ] Extraction complete for ![](images/1f051b9b5ddd487a1bef99ad8da40b6ee211da459d73b1c9cb647b0556c8179c.jpg) findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:38:56 [info     ] Created report: ![](images/1f051b9b5ddd487a1bef99ad8da40b6ee211da459d73b1c9cb647b0556c8179c.jpg)
+2026-01-05 04:38:56 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:38:56 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:38:56 [info     ] Completed processing: ![](images/1f051b9b5ddd487a1bef99ad8da40b6ee211da459d73b1c9cb647b0556c8179c.jpg) (processed)
+    -> processed: ![](images/1f051b9b5ddd487a1bef99ad8da40b6ee211da4
+
+  [70/405] arXiv_AI_Governance_International_Evaluation_AGILE_Index_202...
+2026-01-05 04:38:56 [info     ] Processing: AI Governance
+2026-01-05 04:38:57 [info     ] Uploading text document: arXiv_AI_Governance_International_Evaluation_AGILE_Index_2025.md
+2026-01-05 04:38:57 [info     ] Successfully uploaded: arXiv_AI_Governance_International_Evaluation_AGILE_Index_2025.md (id: eb6139f2e9ce11f090346ed6aed274e1)
+2026-01-05 04:38:57 [info     ] Parsing 1 documents
+2026-01-05 04:38:57 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:38:57 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:38:57 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:39:17 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3348 tokens_prompt=51106
+2026-01-05 04:39:17 [info     ] Extraction complete for AI Governance findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:39:17 [info     ] Created report: AI Governance
+2026-01-05 04:39:17 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:39:17 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:39:17 [info     ] Completed processing: AI Governance (processed)
+    -> processed: AI Governance
+
+  === Progress: 70/405 (17.3%) | Rate: 3.7/min | ETA: 91 min ===
+
+
+  [71/405] arXiv_AI_Governance_to_Avoid_Extinction_2025...
+2026-01-05 04:39:18 [info     ] Processing: AI Governance to Avoid Extinction:
+2026-01-05 04:39:18 [info     ] Uploading text document: arXiv_AI_Governance_to_Avoid_Extinction_2025.md
+2026-01-05 04:39:18 [info     ] Successfully uploaded: arXiv_AI_Governance_to_Avoid_Extinction_2025.md (id: f7dada63e9ce11f08ef66ed6aed274e1)
+2026-01-05 04:39:18 [info     ] Parsing 1 documents
+2026-01-05 04:39:18 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:39:18 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:39:18 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:39:35 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2598 tokens_prompt=54639
+2026-01-05 04:39:35 [info     ] Extraction complete for AI Governance to Avoid Extinction: findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=2
+2026-01-05 04:39:36 [info     ] Created report: AI Governance to Avoid Extinction:
+2026-01-05 04:39:36 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:39:36 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:39:36 [info     ] Completed processing: AI Governance to Avoid Extinction: (processed)
+    -> processed: AI Governance to Avoid Extinction:
+
+  [72/405] Asia_Group_AI_Policy_Everything_Everywhere_2024...
+2026-01-05 04:39:37 [info     ] Processing: EVERYTHING, EVERYWHERE, ALL AT ONCE:
+2026-01-05 04:39:37 [info     ] Uploading text document: Asia_Group_AI_Policy_Everything_Everywhere_2024.md
+2026-01-05 04:39:37 [info     ] Successfully uploaded: Asia_Group_AI_Policy_Everything_Everywhere_2024.md (id: 03c73ea6e9cf11f0a9c06ed6aed274e1)
+2026-01-05 04:39:37 [info     ] Parsing 1 documents
+2026-01-05 04:39:37 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:39:37 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:39:37 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:39:56 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3364 tokens_prompt=18439
+2026-01-05 04:39:56 [info     ] Extraction complete for EVERYTHING, EVERYWHERE, ALL AT ONCE: findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:39:57 [info     ] Created report: EVERYTHING, EVERYWHERE, ALL AT ONCE:
+2026-01-05 04:39:57 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:39:57 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:39:57 [info     ] Completed processing: EVERYTHING, EVERYWHERE, ALL AT ONCE: (processed)
+    -> processed: EVERYTHING, EVERYWHERE, ALL AT ONCE:
+
+  [73/405] Atlantic_AI_Regulation_Defense_2025...
+2026-01-05 04:39:58 [info     ] Processing: SECOND-ORDER IMPACTS OF CIVIL ARTIFICIAL INTELLIGENCE REGULATION ON DEFENSE:
+2026-01-05 04:39:58 [info     ] Uploading text document: Atlantic_AI_Regulation_Defense_2025.md
+2026-01-05 04:39:58 [info     ] Successfully uploaded: Atlantic_AI_Regulation_Defense_2025.md (id: 10074d1ce9cf11f0b7c66ed6aed274e1)
+2026-01-05 04:39:58 [info     ] Parsing 1 documents
+2026-01-05 04:39:58 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:39:58 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:39:58 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:40:18 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3348 tokens_prompt=28886
+2026-01-05 04:40:18 [info     ] Extraction complete for SECOND-ORDER IMPACTS OF CIVIL ARTIFICIAL INTELLIGENCE REGULATION ON DEFENSE: findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=4
+2026-01-05 04:40:19 [info     ] Created report: SECOND-ORDER IMPACTS OF CIVIL ARTIFICIAL INTELLIGENCE REGULATION ON DEFENSE:
+2026-01-05 04:40:19 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:40:19 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:40:19 [info     ] Completed processing: SECOND-ORDER IMPACTS OF CIVIL ARTIFICIAL INTELLIGENCE REGULATION ON DEFENSE: (processed)
+    -> processed: SECOND-ORDER IMPACTS OF CIVIL ARTIFICIAL INTELLIGE
+
+  [74/405] Atlantic_Emerging_Tech_Global_Stability_2020...
+2026-01-05 04:40:19 [info     ] Processing: ISSUE BRIEF
+2026-01-05 04:40:19 [info     ] Uploading text document: Atlantic_Emerging_Tech_Global_Stability_2020.md
+2026-01-05 04:40:20 [info     ] Successfully uploaded: Atlantic_Emerging_Tech_Global_Stability_2020.md (id: 1cbd81e3e9cf11f0a4d26ed6aed274e1)
+2026-01-05 04:40:20 [info     ] Parsing 1 documents
+2026-01-05 04:40:20 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:40:20 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:40:20 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:40:40 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3106 tokens_prompt=24728
+2026-01-05 04:40:40 [info     ] Extraction complete for ISSUE BRIEF findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:40:41 [info     ] Created report: ISSUE BRIEF
+2026-01-05 04:40:41 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:40:41 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:40:41 [info     ] Completed processing: ISSUE BRIEF (processed)
+    -> processed: ISSUE BRIEF
+
+  [75/405] Atlantic_Energy_Transition_Cyber_2022...
+2026-01-05 04:40:41 [info     ] Processing: SECURING THE ENERGY TRANSITION AGAINST CYBER THREATS
+2026-01-05 04:40:42 [info     ] Uploading text document: Atlantic_Energy_Transition_Cyber_2022.md
+2026-01-05 04:40:42 [info     ] Successfully uploaded: Atlantic_Energy_Transition_Cyber_2022.md (id: 29b228e6e9cf11f099c16ed6aed274e1)
+2026-01-05 04:40:42 [info     ] Parsing 1 documents
+2026-01-05 04:40:42 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:40:42 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:40:42 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:41:02 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2852 tokens_prompt=29476
+2026-01-05 04:41:02 [info     ] Extraction complete for SECURING THE ENERGY TRANSITION AGAINST CYBER THREATS findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=4
+2026-01-05 04:41:03 [info     ] Created report: SECURING THE ENERGY TRANSITION AGAINST CYBER THREATS
+2026-01-05 04:41:03 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:41:03 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:41:03 [info     ] Completed processing: SECURING THE ENERGY TRANSITION AGAINST CYBER THREATS (processed)
+    -> processed: SECURING THE ENERGY TRANSITION AGAINST CYBER THREA
+
+  [76/405] Atlantic_Global_Digital_ID_Landscape_2025...
+2026-01-05 04:41:03 [info     ] Processing: Exploring the global digital ID landscape
+2026-01-05 04:41:03 [info     ] Uploading text document: Atlantic_Global_Digital_ID_Landscape_2025.md
+2026-01-05 04:41:03 [info     ] Successfully uploaded: Atlantic_Global_Digital_ID_Landscape_2025.md (id: 37024bace9cf11f0ab196ed6aed274e1)
+2026-01-05 04:41:03 [info     ] Parsing 1 documents
+2026-01-05 04:41:03 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:41:03 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:41:03 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:41:24 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3183 tokens_prompt=19023
+2026-01-05 04:41:24 [info     ] Extraction complete for Exploring the global digital ID landscape findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=4
+2026-01-05 04:41:25 [info     ] Created report: Exploring the global digital ID landscape
+2026-01-05 04:41:25 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:41:25 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:41:25 [info     ] Completed processing: Exploring the global digital ID landscape (processed)
+    -> processed: Exploring the global digital ID landscape
+
+  [77/405] Atlantic_Global_Foresight_2025...
+2026-01-05 04:41:25 [info     ] Processing: Global Foresight 2025
+2026-01-05 04:41:25 [info     ] Uploading text document: Atlantic_Global_Foresight_2025.md
+2026-01-05 04:41:25 [info     ] Successfully uploaded: Atlantic_Global_Foresight_2025.md (id: 445806e7e9cf11f0aa0c6ed6aed274e1)
+2026-01-05 04:41:25 [info     ] Parsing 1 documents
+2026-01-05 04:41:25 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:41:25 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:41:25 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:41:47 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3566 tokens_prompt=39249
+2026-01-05 04:41:47 [info     ] Extraction complete for Global Foresight 2025 findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=5
+2026-01-05 04:41:48 [info     ] Created report: Global Foresight 2025
+2026-01-05 04:41:48 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:41:48 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:41:48 [info     ] Completed processing: Global Foresight 2025 (processed)
+    -> processed: Global Foresight 2025
+
+  [78/405] Atlantic_Strategic_Competition_Decade_2025...
+2026-01-05 04:41:48 [info     ] Processing: The Next Decade of Strategic Competition: How the Pentagon Can Use Special Operations Forces to Better Compete
+2026-01-05 04:41:49 [info     ] Uploading text document: Atlantic_Strategic_Competition_Decade_2025.md
+2026-01-05 04:41:49 [info     ] Successfully uploaded: Atlantic_Strategic_Competition_Decade_2025.md (id: 5205e04be9cf11f0b79c6ed6aed274e1)
+2026-01-05 04:41:49 [info     ] Parsing 1 documents
+2026-01-05 04:41:49 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:41:49 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:41:49 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:42:08 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3064 tokens_prompt=22241
+2026-01-05 04:42:08 [info     ] Extraction complete for The Next Decade of Strategic Competition: How the Pentagon Can Use Special Operations Forces to Better Compete findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=3
+2026-01-05 04:42:09 [info     ] Created report: The Next Decade of Strategic Competition: How the Pentagon Can Use Special Operations Forces to Better Compete
+2026-01-05 04:42:09 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:42:09 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:42:09 [info     ] Completed processing: The Next Decade of Strategic Competition: How the Pentagon Can Use Special Operations Forces to Better Compete (processed)
+    -> processed: The Next Decade of Strategic Competition: How the 
+
+  [79/405] Atlantic_US_AI_Race_Energy_Strategy_2025...
+2026-01-05 04:42:09 [info     ] Processing: To win the AI race, the US needs an all-of-the-above energy strategy
+2026-01-05 04:42:10 [info     ] Uploading text document: Atlantic_US_AI_Race_Energy_Strategy_2025.md
+2026-01-05 04:42:10 [info     ] Successfully uploaded: Atlantic_US_AI_Race_Energy_Strategy_2025.md (id: 5e4183dce9cf11f087086ed6aed274e1)
+2026-01-05 04:42:10 [info     ] Parsing 1 documents
+2026-01-05 04:42:10 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:42:10 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:42:10 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:42:28 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2804 tokens_prompt=12323
+2026-01-05 04:42:28 [info     ] Extraction complete for To win the AI race, the US needs an all-of-the-above energy strategy findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=4
+2026-01-05 04:42:28 [info     ] Created report: To win the AI race, the US needs an all-of-the-above energy strategy
+2026-01-05 04:42:29 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:42:29 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:42:29 [info     ] Completed processing: To win the AI race, the US needs an all-of-the-above energy strategy (processed)
+    -> processed: To win the AI race, the US needs an all-of-the-abo
+
+  [80/405] Atlantic_US_Strategy_Next_Conflict_2025...
+2026-01-05 04:42:29 [info     ] Processing: Issue brief A US strategy to win the next conflict
+2026-01-05 04:42:29 [info     ] Uploading text document: Atlantic_US_Strategy_Next_Conflict_2025.md
+2026-01-05 04:42:29 [info     ] Successfully uploaded: Atlantic_US_Strategy_Next_Conflict_2025.md (id: 6981462ee9cf11f091a66ed6aed274e1)
+2026-01-05 04:42:29 [info     ] Parsing 1 documents
+2026-01-05 04:42:29 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:42:29 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:42:29 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:42:47 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3035 tokens_prompt=10205
+2026-01-05 04:42:47 [info     ] Extraction complete for Issue brief A US strategy to win the next conflict findings=6 model=google/gemini-3-flash-preview quotes=3 statistics=2
+2026-01-05 04:42:48 [info     ] Created report: Issue brief A US strategy to win the next conflict
+2026-01-05 04:42:48 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:42:48 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:42:48 [info     ] Completed processing: Issue brief A US strategy to win the next conflict (processed)
+    -> processed: Issue brief A US strategy to win the next conflict
+
+  === Progress: 80/405 (19.8%) | Rate: 3.6/min | ETA: 91 min ===
+
+
+  [81/405] AWS_Potential_AI_Middle_East_2024...
+2026-01-05 04:42:48 [info     ] Processing: Unlocking the Full Potential of AI in the Middle East
+2026-01-05 04:42:49 [info     ] Uploading text document: AWS_Potential_AI_Middle_East_2024.md
+2026-01-05 04:42:49 [info     ] Successfully uploaded: AWS_Potential_AI_Middle_East_2024.md (id: 75ee8088e9cf11f0bb4c6ed6aed274e1)
+2026-01-05 04:42:49 [info     ] Parsing 1 documents
+2026-01-05 04:42:49 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:42:49 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:42:49 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:43:09 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3339 tokens_prompt=18516
+2026-01-05 04:43:09 [info     ] Extraction complete for Unlocking the Full Potential of AI in the Middle East findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:43:09 [info     ] Created report: Unlocking the Full Potential of AI in the Middle East
+2026-01-05 04:43:10 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:43:10 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:43:10 [info     ] Completed processing: Unlocking the Full Potential of AI in the Middle East (processed)
+    -> processed: Unlocking the Full Potential of AI in the Middle E
+
+  [82/405] Bain_Global_Healthcare_Private_Equity_Report_January_2025...
+2026-01-05 04:43:10 [info     ] Processing: ![](images/e0874158b1549c9579a0c3e5079ccd16eb838e9bd2d336298aed7071e8c23049.jpg)
+2026-01-05 04:43:10 [info     ] Uploading text document: Bain_Global_Healthcare_Private_Equity_Report_January_2025.md
+2026-01-05 04:43:10 [info     ] Successfully uploaded: Bain_Global_Healthcare_Private_Equity_Report_January_2025.md (id: 827e8c87e9cf11f08b926ed6aed274e1)
+2026-01-05 04:43:10 [info     ] Parsing 1 documents
+2026-01-05 04:43:10 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:43:10 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:43:10 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:43:33 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3569 tokens_prompt=17534
+2026-01-05 04:43:33 [info     ] Extraction complete for ![](images/e0874158b1549c9579a0c3e5079ccd16eb838e9bd2d336298aed7071e8c23049.jpg) findings=7 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:43:34 [info     ] Created report: ![](images/e0874158b1549c9579a0c3e5079ccd16eb838e9bd2d336298aed7071e8c23049.jpg)
+2026-01-05 04:43:34 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:43:34 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:43:34 [info     ] Completed processing: ![](images/e0874158b1549c9579a0c3e5079ccd16eb838e9bd2d336298aed7071e8c23049.jpg) (processed)
+    -> processed: ![](images/e0874158b1549c9579a0c3e5079ccd16eb838e9
+
+  [83/405] Bain_Technology_Report_2024_AI...
+2026-01-05 04:43:34 [info     ] Processing: ![](images/d1608ccffca6afb67e636a30119874f748465b4dd88dacc8bba3bed69b75746c.jpg)
+2026-01-05 04:43:34 [info     ] Uploading text document: Bain_Technology_Report_2024_AI.md
+2026-01-05 04:43:34 [info     ] Successfully uploaded: Bain_Technology_Report_2024_AI.md (id: 90b281a2e9cf11f0a56e6ed6aed274e1)
+2026-01-05 04:43:34 [info     ] Parsing 1 documents
+2026-01-05 04:43:34 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:43:34 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:43:34 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:43:56 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3628 tokens_prompt=35952
+2026-01-05 04:43:56 [info     ] Extraction complete for ![](images/d1608ccffca6afb67e636a30119874f748465b4dd88dacc8bba3bed69b75746c.jpg) findings=5 model=google/gemini-3-flash-preview quotes=3 statistics=5
+2026-01-05 04:43:57 [info     ] Created report: ![](images/d1608ccffca6afb67e636a30119874f748465b4dd88dacc8bba3bed69b75746c.jpg)
+2026-01-05 04:43:57 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:43:57 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:43:57 [info     ] Completed processing: ![](images/d1608ccffca6afb67e636a30119874f748465b4dd88dacc8bba3bed69b75746c.jpg) (processed)
+    -> processed: ![](images/d1608ccffca6afb67e636a30119874f748465b4
+
+  [84/405] Bain_Technology_Report_2025.pdf-47c0da53-5570-4a0c-b58e-c8a4...
+2026-01-05 04:43:57 [info     ] Processing: ![](images/97594babdbf9a66f94fc6537dafd0d509b1546a3de273d4ab185d5bfb994ee5c.jpg)
+2026-01-05 04:43:58 [info     ] Uploading text document: Bain_Technology_Report_2025.pdf-47c0da53-5570-4a0c-b58e-c8a4adec9c61.md
+2026-01-05 04:43:58 [info     ] Successfully uploaded: Bain_Technology_Report_2025.pdf-47c0da53-5570-4a0c-b58e-c8a4adec9c61.md (id: 9e772ec3e9cf11f09a656ed6aed274e1)
+2026-01-05 04:43:58 [info     ] Parsing 1 documents
+2026-01-05 04:43:58 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:43:58 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:43:58 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:44:23 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3623 tokens_prompt=31872
+2026-01-05 04:44:23 [info     ] Extraction complete for ![](images/97594babdbf9a66f94fc6537dafd0d509b1546a3de273d4ab185d5bfb994ee5c.jpg) findings=6 model=google/gemini-3-flash-preview quotes=3 statistics=5
+2026-01-05 04:44:24 [info     ] Created report: ![](images/97594babdbf9a66f94fc6537dafd0d509b1546a3de273d4ab185d5bfb994ee5c.jpg)
+2026-01-05 04:44:24 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:44:24 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:44:24 [info     ] Completed processing: ![](images/97594babdbf9a66f94fc6537dafd0d509b1546a3de273d4ab185d5bfb994ee5c.jpg) (processed)
+    -> processed: ![](images/97594babdbf9a66f94fc6537dafd0d509b1546a
+
+  [85/405] BCG_AI_at_Work_2025...
+2026-01-05 04:44:24 [info     ] Processing: BCG AI AT WORK
+2026-01-05 04:44:25 [info     ] Uploading text document: BCG_AI_at_Work_2025.md
+2026-01-05 04:44:25 [info     ] Successfully uploaded: BCG_AI_at_Work_2025.md (id: ae798b5fe9cf11f0bdd26ed6aed274e1)
+2026-01-05 04:44:25 [info     ] Parsing 1 documents
+2026-01-05 04:44:25 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:44:25 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:44:25 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:44:45 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3344 tokens_prompt=7483
+2026-01-05 04:44:45 [info     ] Extraction complete for BCG AI AT WORK findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:44:46 [info     ] Created report: BCG AI AT WORK
+2026-01-05 04:44:46 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:44:46 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:44:46 [info     ] Completed processing: BCG AI AT WORK (processed)
+    -> processed: BCG AI AT WORK
+
+  [86/405] BCG_AI_at_Work_2025_Report...
+2026-01-05 04:44:46 [info     ] Processing: BCG AI AT WORK
+2026-01-05 04:44:47 [info     ] Uploading text document: BCG_AI_at_Work_2025_Report.md
+2026-01-05 04:44:47 [info     ] Successfully uploaded: BCG_AI_at_Work_2025_Report.md (id: bc639fbce9cf11f0b5396ed6aed274e1)
+2026-01-05 04:44:47 [info     ] Parsing 1 documents
+2026-01-05 04:44:47 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 04:44:47 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 04:44:47 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 04:45:07 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3294 tokens_prompt=7483
+2026-01-05 04:45:07 [info     ] Extraction complete for BCG AI AT WORK findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 04:45:07 [info     ] Created report: BCG AI AT WORK
+2026-01-05 04:45:07 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:45:07 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 04:45:07 [info     ] Completed processing: BCG AI AT WORK (processed)
+    -> processed: BCG AI AT WORK
+
+  [87/405] BCG_AI_Cost_Advantage_2025...
+2026-01-05 04:45:08 [info     ] Processing: BCG
+2026-01-05 10:34:07 [info     ] Uploading text document: BCG_AI_Cost_Advantage_2025.md
+2026-01-05 10:34:08 [info     ] Successfully uploaded: BCG_AI_Cost_Advantage_2025.md (id: 8dc3ba85e9e911f081716ed6aed274e1)
+2026-01-05 10:34:08 [info     ] Parsing 1 documents
+2026-01-05 10:34:08 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:34:08 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:34:08 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:34:28 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3460 tokens_prompt=9481
+2026-01-05 10:34:28 [info     ] Extraction complete for BCG    findings=4 model=google/gemini-3-flash-preview quotes=2 statistics=6
+2026-01-05 10:34:30 [info     ] Created report: BCG
+2026-01-05 10:34:30 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:34:30 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:34:30 [info     ] Completed processing: BCG (processed)
+    -> processed: BCG
+
+  [88/405] BCG_AI_First_Companies_Win_Future_2025...
+2026-01-05 10:34:30 [info     ] Processing: BCG
+2026-01-05 10:34:30 [info     ] Uploading text document: BCG_AI_First_Companies_Win_Future_2025.md
+2026-01-05 10:34:30 [info     ] Successfully uploaded: BCG_AI_First_Companies_Win_Future_2025.md (id: 9806877fea0011f08bcc6ed6aed274e1)
+2026-01-05 10:34:30 [info     ] Parsing 1 documents
+2026-01-05 10:34:30 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:34:30 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:34:30 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:34:50 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2990 tokens_prompt=10542
+2026-01-05 10:34:50 [info     ] Extraction complete for BCG    findings=4 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 10:34:51 [info     ] Created report: BCG
+2026-01-05 10:34:51 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:34:51 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:34:51 [info     ] Completed processing: BCG (processed)
+    -> processed: BCG
+
+  [89/405] BCG_AI_Healthcare_2025...
+2026-01-05 10:34:51 [info     ] Processing: How Digital and AI Will Reshape Health Care in 2025
+2026-01-05 10:34:52 [info     ] Uploading text document: BCG_AI_Healthcare_2025.md
+2026-01-05 10:34:52 [info     ] Successfully uploaded: BCG_AI_Healthcare_2025.md (id: a3fc806aea0011f0bc4e6ed6aed274e1)
+2026-01-05 10:34:52 [info     ] Parsing 1 documents
+2026-01-05 10:34:52 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:34:52 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:34:52 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:35:20 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3702 tokens_prompt=9690
+2026-01-05 10:35:20 [info     ] Extraction complete for How Digital and AI Will Reshape Health Care in 2025 findings=6 model=google/gemini-3-flash-preview quotes=3 statistics=4
+2026-01-05 10:35:20 [info     ] Created report: How Digital and AI Will Reshape Health Care in 2025
+2026-01-05 10:35:21 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:35:21 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:35:21 [info     ] Completed processing: How Digital and AI Will Reshape Health Care in 2025 (processed)
+    -> processed: How Digital and AI Will Reshape Health Care in 202
+
+  [90/405] BCG_AI_Maturity_Matrix_2024...
+2026-01-05 10:35:21 [info     ] Processing: The AI Maturity Matrix
+2026-01-05 10:35:21 [info     ] Uploading text document: BCG_AI_Maturity_Matrix_2024.md
+2026-01-05 10:35:21 [info     ] Successfully uploaded: BCG_AI_Maturity_Matrix_2024.md (id: b5dd9ef7ea0011f089656ed6aed274e1)
+2026-01-05 10:35:21 [info     ] Parsing 1 documents
+2026-01-05 10:35:21 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:35:21 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:35:21 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:35:42 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3417 tokens_prompt=13373
+2026-01-05 10:35:42 [info     ] Extraction complete for The AI Maturity Matrix findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 10:35:43 [info     ] Created report: The AI Maturity Matrix
+2026-01-05 10:35:43 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:35:43 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:35:43 [info     ] Completed processing: The AI Maturity Matrix (processed)
+    -> processed: The AI Maturity Matrix
+
+  === Progress: 90/405 (22.2%) | Rate: 0.2/min | ETA: 1314 min ===
+
+
+  [91/405] BCG_AI_Maturity_Matrix_November_2024.pdf-fd86f15f-7ff0-4d6f-...
+2026-01-05 10:35:43 [info     ] Processing: The AI Maturity Matrix
+2026-01-05 10:35:44 [info     ] Uploading text document: BCG_AI_Maturity_Matrix_November_2024.pdf-fd86f15f-7ff0-4d6f-8f39-0f5910bfe42d.md
+2026-01-05 10:35:44 [info     ] Successfully uploaded: BCG_AI_Maturity_Matrix_November_2024.pdf-fd86f15f-7ff0-4d6f-8f39-0f5910bfe42d.md (id: c30b935dea0011f0a4fc6ed6aed274e1)
+2026-01-05 10:35:44 [info     ] Parsing 1 documents
+2026-01-05 10:35:44 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:35:44 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:35:44 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:36:08 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3458 tokens_prompt=13486
+2026-01-05 10:36:08 [info     ] Extraction complete for The AI Maturity Matrix findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 10:36:09 [info     ] Created report: The AI Maturity Matrix
+2026-01-05 10:36:09 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:36:09 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:36:09 [info     ] Completed processing: The AI Maturity Matrix (processed)
+    -> processed: The AI Maturity Matrix
+
+  [92/405] BCG_AI_ML_Medtech_2025...
+2026-01-05 10:36:10 [info     ] Processing: Artificial Intelligence Stakes a Claim on Medtech
+2026-01-05 10:36:10 [info     ] Uploading text document: BCG_AI_ML_Medtech_2025.md
+2026-01-05 10:36:10 [info     ] Successfully uploaded: BCG_AI_ML_Medtech_2025.md (id: d31cdb62ea0011f0963e6ed6aed274e1)
+2026-01-05 10:36:10 [info     ] Parsing 1 documents
+2026-01-05 10:36:10 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:36:10 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:36:10 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:36:28 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2939 tokens_prompt=21349
+2026-01-05 10:36:28 [info     ] Extraction complete for Artificial Intelligence Stakes a Claim on Medtech findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=4
+2026-01-05 10:36:29 [info     ] Created report: Artificial Intelligence Stakes a Claim on Medtech
+2026-01-05 10:36:29 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:36:29 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:36:29 [info     ] Completed processing: Artificial Intelligence Stakes a Claim on Medtech (processed)
+    -> processed: Artificial Intelligence Stakes a Claim on Medtech
+
+  [93/405] BCG_AI_Radar_2025.pdf-dfddaf4a-8580-40f2-9213-29e2da69411b...
+2026-01-05 10:36:29 [info     ] Processing: BCG AI RADAR
+2026-01-05 10:36:30 [info     ] Uploading text document: BCG_AI_Radar_2025.pdf-dfddaf4a-8580-40f2-9213-29e2da69411b.md
+2026-01-05 10:36:30 [info     ] Successfully uploaded: BCG_AI_Radar_2025.pdf-dfddaf4a-8580-40f2-9213-29e2da69411b.md (id: de9ad19aea0011f0a50b6ed6aed274e1)
+2026-01-05 10:36:30 [info     ] Parsing 1 documents
+2026-01-05 10:36:30 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:36:30 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:36:30 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:36:52 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3210 tokens_prompt=6095
+2026-01-05 10:36:52 [info     ] Extraction complete for BCG AI RADAR findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 10:36:52 [info     ] Created report: BCG AI RADAR
+2026-01-05 10:36:53 [error    ] Database error adding databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:36:53 [warning  ] Failed to populate databank: Failed to add databank item: {'message': 'JSON could not be generated', 'code': 404, 'hint': 'Refer to full message for details', 'details': "b'{}'"}
+2026-01-05 10:36:53 [info     ] Completed processing: BCG AI RADAR (processed)
+    -> processed: BCG AI RADAR
+
+  [94/405] BCG_AI_Radar_2025_Report...
+2026-01-05 10:36:53 [info     ] Processing: BCG AI RADAR
+2026-01-05 10:36:53 [info     ] Uploading text document: BCG_AI_Radar_2025_Report.md
+2026-01-05 10:36:53 [info     ] Successfully uploaded: BCG_AI_Radar_2025_Report.md (id: ecabbabbea0011f083626ed6aed274e1)
+2026-01-05 10:36:53 [info     ] Parsing 1 documents
+2026-01-05 10:36:53 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:36:53 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:36:53 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:37:15 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3598 tokens_prompt=6100
+2026-01-05 10:37:15 [info     ] Extraction complete for BCG AI RADAR findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=7
+2026-01-05 10:37:16 [info     ] Created report: BCG AI RADAR
+2026-01-05 10:37:19 [info     ] Completed processing: BCG AI RADAR (processed)
+    -> processed: BCG AI RADAR
+
+  [95/405] BCG_AI_Shifts_IT_Budgets_Growth_Investments_2025...
+2026-01-05 10:37:19 [info     ] Processing: ![](images/bd43a44ea49a00b285c06906ea6808eaab70bcdb543617f00315b7625da117f5.jpg)
+2026-01-05 10:37:19 [info     ] Uploading text document: BCG_AI_Shifts_IT_Budgets_Growth_Investments_2025.md
+2026-01-05 10:37:19 [info     ] Successfully uploaded: BCG_AI_Shifts_IT_Budgets_Growth_Investments_2025.md (id: fc155945ea0011f0aa2c6ed6aed274e1)
+2026-01-05 10:37:19 [info     ] Parsing 1 documents
+2026-01-05 10:37:19 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:37:19 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:37:19 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:37:38 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2880 tokens_prompt=7109
+2026-01-05 10:37:38 [info     ] Extraction complete for ![](images/bd43a44ea49a00b285c06906ea6808eaab70bcdb543617f00315b7625da117f5.jpg) findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=4
+2026-01-05 10:37:38 [info     ] Created report: ![](images/bd43a44ea49a00b285c06906ea6808eaab70bcdb543617f00315b7625da117f5.jpg)
+2026-01-05 10:37:41 [info     ] Completed processing: ![](images/bd43a44ea49a00b285c06906ea6808eaab70bcdb543617f00315b7625da117f5.jpg) (processed)
+    -> processed: ![](images/bd43a44ea49a00b285c06906ea6808eaab70bcd
+
+  [96/405] BCG_AI_Work_2025_Slideshow...
+2026-01-05 10:37:41 [info     ] Processing: BCG AI AT WORK
+2026-01-05 10:37:41 [info     ] Uploading text document: BCG_AI_Work_2025_Slideshow.md
+2026-01-05 10:37:41 [info     ] Successfully uploaded: BCG_AI_Work_2025_Slideshow.md (id: 091e9ca4ea0111f097c56ed6aed274e1)
+2026-01-05 10:37:41 [info     ] Parsing 1 documents
+2026-01-05 10:37:41 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:37:41 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:37:41 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:38:00 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3085 tokens_prompt=7483
+2026-01-05 10:38:00 [info     ] Extraction complete for BCG AI AT WORK findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 10:38:01 [info     ] Created report: BCG AI AT WORK
+2026-01-05 10:38:04 [info     ] Completed processing: BCG AI AT WORK (processed)
+    -> processed: BCG AI AT WORK
+
+  [97/405] BCG_Climate_Impacts_Malaria_Africa_November_2024...
+2026-01-05 10:38:04 [info     ] Processing: ![](images/8c795029e8b7e145cb09402d16298812d84abc6e3dec5193a3aded6ec0d5e4dc.jpg)
+2026-01-05 10:38:04 [info     ] Uploading text document: BCG_Climate_Impacts_Malaria_Africa_November_2024.md
+2026-01-05 10:38:04 [info     ] Successfully uploaded: BCG_Climate_Impacts_Malaria_Africa_November_2024.md (id: 17597cbbea0111f097556ed6aed274e1)
+2026-01-05 10:38:04 [info     ] Parsing 1 documents
+2026-01-05 10:38:05 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:38:05 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:38:05 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:38:28 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3735 tokens_prompt=29278
+2026-01-05 10:38:28 [info     ] Extraction complete for ![](images/8c795029e8b7e145cb09402d16298812d84abc6e3dec5193a3aded6ec0d5e4dc.jpg) findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 10:38:28 [info     ] Created report: ![](images/8c795029e8b7e145cb09402d16298812d84abc6e3dec5193a3aded6ec0d5e4dc.jpg)
+2026-01-05 10:38:31 [info     ] Completed processing: ![](images/8c795029e8b7e145cb09402d16298812d84abc6e3dec5193a3aded6ec0d5e4dc.jpg) (processed)
+    -> processed: ![](images/8c795029e8b7e145cb09402d16298812d84abc6
+
+  [98/405] BCG_Data_Management_AI_2024...
+2026-01-05 10:38:31 [info     ] Processing: BCG
+2026-01-05 10:38:32 [info     ] Uploading text document: BCG_Data_Management_AI_2024.md
+2026-01-05 10:38:32 [info     ] Successfully uploaded: BCG_Data_Management_AI_2024.md (id: 27896b47ea0111f0aded6ed6aed274e1)
+2026-01-05 10:38:32 [info     ] Parsing 1 documents
+2026-01-05 10:38:32 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:38:32 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:38:32 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:38:50 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=2939 tokens_prompt=13066
+2026-01-05 10:38:50 [info     ] Extraction complete for BCG    findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 10:38:51 [info     ] Created report: BCG
+2026-01-05 10:38:53 [info     ] Completed processing: BCG (processed)
+    -> processed: BCG
+
+  [99/405] BCG_Digital_AI_Reshape_Healthcare_2025...
+2026-01-05 10:38:53 [info     ] Processing: How Digital and AI Will Reshape Health Care in 2025
+2026-01-05 10:38:54 [info     ] Uploading text document: BCG_Digital_AI_Reshape_Healthcare_2025.md
+2026-01-05 10:38:54 [info     ] Successfully uploaded: BCG_Digital_AI_Reshape_Healthcare_2025.md (id: 3478aa1eea0111f0a5af6ed6aed274e1)
+2026-01-05 10:38:54 [info     ] Parsing 1 documents
+2026-01-05 10:38:54 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:38:54 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:38:54 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:39:19 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3647 tokens_prompt=9690
+2026-01-05 10:39:19 [info     ] Extraction complete for How Digital and AI Will Reshape Health Care in 2025 findings=6 model=google/gemini-3-flash-preview quotes=3 statistics=4
+2026-01-05 10:39:19 [info     ] Created report: How Digital and AI Will Reshape Health Care in 2025
+2026-01-05 10:39:22 [info     ] Completed processing: How Digital and AI Will Reshape Health Care in 2025 (processed)
+    -> processed: How Digital and AI Will Reshape Health Care in 202
+
+  [100/405] BCG_Digital_Government_Age_of_AI_GCC_2024...
+2026-01-05 10:39:23 [info     ] Processing: Digital Government in the Age of AI: Championing GCC Next-Gen Citizen Services
+2026-01-05 10:39:23 [info     ] Uploading text document: BCG_Digital_Government_Age_of_AI_GCC_2024.md
+2026-01-05 10:39:23 [info     ] Successfully uploaded: BCG_Digital_Government_Age_of_AI_GCC_2024.md (id: 45f659acea0111f081f76ed6aed274e1)
+2026-01-05 10:39:23 [info     ] Parsing 1 documents
+2026-01-05 10:39:23 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:39:23 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:39:23 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast
+2026-01-05 10:39:45 [info     ] LLM response                   model=google/gemini-3-flash-preview tokens_completion=3421 tokens_prompt=10271
+2026-01-05 10:39:45 [info     ] Extraction complete for Digital Government in the Age of AI: Championing GCC Next-Gen Citizen Services findings=5 model=google/gemini-3-flash-preview quotes=2 statistics=5
+2026-01-05 10:39:45 [info     ] Created report: Digital Government in the Age of AI: Championing GCC Next-Gen Citizen Services
+2026-01-05 10:40:02 [info     ] Completed processing: Digital Government in the Age of AI: Championing GCC Next-Gen Citizen Services (processed)
+    -> processed: Digital Government in the Age of AI: Championing G
+
+  === Progress: 100/405 (24.7%) | Rate: 0.3/min | ETA: 1158 min ===
+
+
+  [101/405] BCG_Future_Field_Service_AI_2025...
+2026-01-05 10:40:02 [info     ] Processing: BCG
+2026-01-05 10:40:02 [info     ] Uploading text document: BCG_Future_Field_Service_AI_2025.md
+2026-01-05 10:40:02 [info     ] Successfully uploaded: BCG_Future_Field_Service_AI_2025.md (id: 5d6a04a0ea0111f0ad486ed6aed274e1)
+2026-01-05 10:40:02 [info     ] Parsing 1 documents
+2026-01-05 10:40:02 [error    ] RAGFlow error: <MethodNotAllowed '405: Method Not Allowed'> endpoint=/api/v1/datasets/eceb7b32e83111f080689a6078826a72/documents/run
+2026-01-05 10:40:02 [warning  ] RAGFlow parse trigger failed (may auto-parse): <MethodNotAllowed '405: Method Not Allowed'>
+2026-01-05 10:40:02 [info     ] LLM request                    message_count=1 model=google/gemini-3-flash-preview model_type=fast

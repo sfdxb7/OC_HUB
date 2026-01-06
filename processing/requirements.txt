@@ -1,0 +1,26 @@
+# ============================================
+# Document Processing Dependencies
+# ============================================
+
+# HTTP client
+httpx==0.26.0
+aiofiles==23.2.1
+
+# Data processing
+pydantic==2.6.0
+orjson==3.9.13
+
+# LLM
+openai==1.12.0
+
+# Supabase
+supabase==2.3.4
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.1
+tenacity==8.2.3
+structlog==24.1.0
+
+# File handling
+python-magic==0.4.27

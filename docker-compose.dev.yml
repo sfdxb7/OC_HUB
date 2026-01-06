@@ -1,0 +1,67 @@
+# ============================================
+# DCAI Intelligence Platform - Development Overrides
+# ============================================
+# Use with: docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
+# ============================================
+
+version: "3.8"
+
+services:
+  # ============================================
+  # Elasticsearch - Reduced memory for local dev
+  # ============================================
+  elasticsearch:
+    environment:
+      - "ES_JAVA_OPTS=-Xms1g -Xmx1g"
+
+  # ============================================
+  # Backend - Development mode
+  # ============================================
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    container_name: dcai_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - /app/__pycache__
+    environment:
+      - DEBUG=true
+      - LOG_LEVEL=DEBUG
+      - RAGFLOW_URL=http://ragflow:9380
+    env_file:
+      - .env
+    depends_on:
+      - ragflow
+    restart: unless-stopped
+    networks:
+      - ragflow_network
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  # ============================================
+  # Frontend - Development mode
+  # ============================================
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev
+    container_name: dcai_frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    environment:
+      - NODE_ENV=development
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    env_file:
+      - .env
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - ragflow_network
+    command: npm run dev

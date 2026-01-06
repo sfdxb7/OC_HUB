@@ -1,0 +1,146 @@
+# ============================================
+# DCAI Intelligence Platform - Docker Compose
+# ============================================
+# This runs RAGFlow for vector storage and GraphRAG
+# Supabase is already running on your VPS
+# ============================================
+
+version: "3.8"
+
+services:
+  # ============================================
+  # RAGFlow - Core RAG Engine
+  # ============================================
+  # Access UI at: http://localhost:9380
+  # Default admin: admin / admin (change after first login)
+  ragflow:
+    image: infiniflow/ragflow:v0.16.0
+    container_name: ragflow
+    ports:
+      - "9380:9380"
+      - "9443:443"
+    volumes:
+      - ragflow_data:/ragflow/data
+      - ragflow_logs:/ragflow/logs
+      - ./ragflow_config:/ragflow/conf
+    environment:
+      - TZ=Asia/Dubai
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+      mysql:
+        condition: service_healthy
+      minio:
+        condition: service_started
+      redis:
+        condition: service_started
+    restart: unless-stopped
+    networks:
+      - ragflow_network
+
+  # ============================================
+  # Elasticsearch - Vector & Text Search
+  # ============================================
+  elasticsearch:
+    image: elasticsearch:8.11.3
+    container_name: ragflow_elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+      - cluster.routing.allocation.disk.watermark.low=5gb
+      - cluster.routing.allocation.disk.watermark.high=3gb
+      - cluster.routing.allocation.disk.watermark.flood_stage=1gb
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9200/_cluster/health | grep -q 'status.*green\\|yellow'"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - ragflow_network
+
+  # ============================================
+  # MySQL - RAGFlow Metadata
+  # ============================================
+  mysql:
+    image: mysql:8.0
+    container_name: ragflow_mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=ragflow_root_password
+      - MYSQL_DATABASE=ragflow
+      - MYSQL_USER=ragflow
+      - MYSQL_PASSWORD=ragflow_password
+    volumes:
+      - mysql_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-pragflow_root_password"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - ragflow_network
+
+  # ============================================
+  # MinIO - Object Storage for Documents
+  # ============================================
+  minio:
+    image: minio/minio:latest
+    container_name: ragflow_minio
+    command: server /data --console-address ":9001"
+    environment:
+      - MINIO_ROOT_USER=minioadmin
+      - MINIO_ROOT_PASSWORD=minioadmin
+    volumes:
+      - minio_data:/data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    restart: unless-stopped
+    networks:
+      - ragflow_network
+
+  # ============================================
+  # Redis - Caching & Task Queue
+  # ============================================
+  redis:
+    image: redis:7-alpine
+    container_name: ragflow_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    networks:
+      - ragflow_network
+
+# ============================================
+# Volumes
+# ============================================
+volumes:
+  ragflow_data:
+    driver: local
+  ragflow_logs:
+    driver: local
+  elasticsearch_data:
+    driver: local
+  mysql_data:
+    driver: local
+  minio_data:
+    driver: local
+  redis_data:
+    driver: local
+
+# ============================================
+# Networks
+# ============================================
+networks:
+  ragflow_network:
+    driver: bridge
